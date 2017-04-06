@@ -1,0 +1,31 @@
+@import '../components/layout.css';
+
+:root {
+  --background-color: #F7F7F7;
+}
+
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  background: var(--background-color);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  > footer {
+    background: #fff;
+    border-top:1px solid #eee;
+    text-align: center;
+    padding: 20px;
+    span {
+      color: #d2322d;
+    }
+  }
+}
+
+article {
+  flex: 1;
+}

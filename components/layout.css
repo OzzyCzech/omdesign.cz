@@ -1,0 +1,64 @@
+@import '../node_modules/minireset.css/minireset.css';
+
+:root {
+  --base-font-color: #555;
+  --base-hader-color: #1F1F21;
+  --base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--base-font-family);
+  color: var(--base-font-color);
+}
+
+header {
+
+  nav {
+    display: flex;
+    font-size: 26px;
+    font-weight: 200;
+    background: var(--base-hader-color);
+
+    ul {
+      & {
+        display: flex;
+        margin: auto;
+      }
+
+      li {
+        display: block;
+      }
+
+      li.active a {
+        background: rgba(255, 255, 255, 0.1);
+        transition: background-color 400ms ease-in;
+      }
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.avatar {
+  display: block;
+  border-radius: 1000px;
+  background: url('img/roman-ozana.jpg') 50% 45% no-repeat;
+  margin: 1em auto;
+  z-index: 1;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  filter: grayscale(100%);
+
+  width: 22rem;
+  height: 22rem;
+
+  &:hover {
+    filter: none;
+  }
+}
