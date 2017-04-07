@@ -6,7 +6,7 @@ import work from './work.css';
 const Testomato = () =>
   <article className="testomato">
     <div>
-      <img src="img/testomato.svg" alt="" className="img-fluid" />
+      <img src="img/testomato.svg" alt="" />
       <p>
         I'm working on Testomato least four years as PHP/JS Developer.
 					Testomato starts as <Link href="/me"><a>one man project</a></Link>, from
@@ -14,10 +14,8 @@ const Testomato = () =>
 				</p>
 
       <p>
-        Testomato is a cloud-based
-					<a href="https://www.testomato.com" target="_blank">automated monitoring tool</a> for
-					checks any type of websites and alerts you to problems. It's fast and easiest way to monitor websites
-					automatically!
+        Testomato is a cloud-based <a href="https://www.testomato.com" target="_blank">automated monitoring tool</a> for
+					checks any type of websites and alerts you to problems. It's fast and easiest way to monitor websites automatically!
 				</p>
 
       <h3>The Testomato Engine</h3>
@@ -36,13 +34,13 @@ const Testomato = () =>
         <li>Angular JS, jQuery and Javascript</li>
       </ul>
 
-      <p className="text-center">
-        <a href="https://www.testomato.com" target="_blank" className="btn btn-lg btn-hollow">Visit Testomato</a>
+      <p>
+        <a href="https://www.testomato.com" target="_blank" className="btn btn-hollow">Visit Testomato</a>
       </p>
     </div>
     <div>
       <a href="https://www.testomato.com">
-        <img src="/img/work/testomato.png" alt="" className="img-fluid" />
+        <img src="/img/work/testomato.png" alt="" />
       </a>
     </div>
   </article>;
@@ -50,7 +48,7 @@ const Testomato = () =>
 const Zdrojak = () =>
   <article className="zdrojak">
     <div>
-      <img src="img/zdrojak.svg" alt="" className="img-fluid" />
+      <img src="img/zdrojak.svg" alt="" />
       <p>
         Zdrojak.cz is one of most known czech mags about development. Current version is based on Wordpress
 					with a <abbr title="A lot of in-house plugins and tons of small modifications">specific modifications</abbr>.
@@ -68,7 +66,7 @@ const Zdrojak = () =>
     </div>
     <div>
       <a href="https://www.testomato.com">
-        <img src="/img/work/zdrojak.png" alt="" className="img-fluid" />
+        <img src="/img/work/zdrojak.png" alt="" />
       </a>
     </div>
   </article>;
