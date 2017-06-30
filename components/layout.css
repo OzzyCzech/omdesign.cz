@@ -1,25 +1,19 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap-reboot.css';
 
-
-:root {  
-  --base-hader-color: #1F1F21;
-}
-
 header {
-
   nav {
     display: flex;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 200;
-    background: var(--base-hader-color);
+    background: #1F1F21;
     color: #fff;
 
     ul {
-      & {
-        display: flex;
-        margin: auto;
-      }
+      display: flex;
+      margin: auto;
+    }
 
+    ul {
       li {
         display: block;
       }
@@ -29,22 +23,26 @@ header {
         transition: background-color 400ms ease-in;
       }
 
-      a {                
+      a {
         display: block;
-        padding: 20px;
+        padding: 15px 25px;
+        cursor: pointer;
+      }
+      a:hover {
+        background: rgba(255, 255, 255, .1);
       }
     }
   }
 }
 
 img, embed, object, audio, video {
-  height:auto;
-  max-width:100%
+  height: auto;
+  max-width: 100%
 }
 
 .avatar {
   display: block;
-  border-radius: 1000px;
+  border-radius: 99999px;
   background: url('img/roman-ozana.jpg') 50% 45% no-repeat;
   margin: 1em auto;
   z-index: 1;
@@ -72,17 +70,17 @@ img, embed, object, audio, video {
   white-space: nowrap;
   vertical-align: middle;
   touch-action: manipulation;
-  cursor: pointer;    
+  cursor: pointer;
   user-select: none;
   background-image: none;
   border: 1px solid transparent;
 }
 
 a.btn {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .btn-hollow {
-  font-size: 18px;  
-  border:1px solid #fff;  
+  font-size: 18px;
+  border: 1px solid #fff;
 }
