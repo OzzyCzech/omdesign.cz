@@ -8,7 +8,7 @@ import work from './work.css';
 const Testomato = () =>
 		<article className="testomato">
 			<div>
-				<img src="img/testomato.svg" alt=""/>
+				<img src="/img/testomato.svg" alt=""/>
 				<p>
 					I'm working on Testomato least four years as PHP/JS Developer.
 					Testomato starts as <Link href="/me"><a>one man project</a></Link>, from
@@ -52,7 +52,7 @@ const Testomato = () =>
 const Zdrojak = () =>
 		<article className="zdrojak">
 			<div>
-				<img src="img/zdrojak.svg" alt=""/>
+				<img src="/img/zdrojak.svg" alt=""/>
 				<p>
 					Zdrojak.cz is one of most known czech mags about development. Current version is based on Wordpress
 					with a <abbr title="A lot of in-house plugins and tons of small modifications">specific modifications</abbr>.
@@ -78,7 +78,7 @@ const Zdrojak = () =>
 const Sphido = () =>
 		<article className="sphido">
 			<a href="http://www.sphido.org" target="_sphido">
-				<img src="/img/sphido.svg" alt="Sphido Logo" className="img-responsive"/>
+				<img src="/img/sphido.svg" alt="Sphido Logo" className="/img-responsive"/>
 			</a>
 			<p className="h2">A rocket fast, lightweight, flat file CMS for PHP</p>
 			<div className="buttons">
@@ -132,24 +132,6 @@ const Wordpress = () =>
 			</ul>
 		</article>;
 
-const TimeTrack = () =>
-		<article className="time-track">
-
-			<h2>Simple Time Track</h2>
-
-			<p>
-				is successfull (18K+ users / 4.9 <img src="/img/star.svg" alt="Star" className="img-responsive"/>)&nbsp;
-				<a href="https://chrome.google.com/webstore/detail/simple-time-track/hbhcgdpbdenjjpekdajanfgchlgacdea">
-					time tracking plugin for Google Chrome
-				</a>&hellip; and it's <a href="https://github.com/OzzyCzech/Simple-Time-Track" target="_blank">open source</a>.
-			</p>
-
-			<p className="text-center">
-				<a href="https://chrome.google.com/webstore/detail/simple-time-track/hbhcgdpbdenjjpekdajanfgchlgacdea"
-				   target="_blank" className="btn btn-lg btn-hollow">Visit Chrome Web Store</a>
-			</p>
-		</article>;
-
 const AndMore = () =>
 		<article className="and-more">
 			<h2>and more&hellip;</h2>
@@ -176,7 +158,6 @@ export default () => (
 				<Zdrojak />
 				<Sphido />
 				<Wordpress />
-				<TimeTrack />
 				<AndMore />
 			</main>
 

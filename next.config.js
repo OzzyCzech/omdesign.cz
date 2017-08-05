@@ -1,4 +1,14 @@
 module.exports = {
+
+	async exportPathMap() {
+		return {
+			"/": {page: "/"},
+			"/contact": {page: "/contact", query: {title: "hello-nextjs"}},
+			"/resume": {page: "/resume", query: {title: "learn-nextjs"}},
+			"/work": {page: "/work", query: {title: "deploy-nextjs"}}
+		}
+	},
+
 	webpack: (config, {dev}) => {
 		config.module.rules.push(
 				{
@@ -17,4 +27,4 @@ module.exports = {
 
 		return config;
 	}
-}
+};
