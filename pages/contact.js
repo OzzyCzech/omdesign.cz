@@ -1,7 +1,6 @@
 import Layout from '../components/layout'
 import Nav from '../components/nav'
 import Head from 'next/head'
-import Link from 'next/link'
 import contact from './contact.css'
 
 const ContactClaim = () =>
@@ -12,7 +11,7 @@ const ContactClaim = () =>
 const ContactInformation = () =>
 		<section className="contact-information">
 			<div>
-				<Link href="/me"><a title="Download image..." className="avatar"></a></Link>
+				<a href="/me" title="Download image..." className="avatar"></a>
 			</div>
 			<div>
 				<ul className="list-unstyled">

@@ -7,11 +7,7 @@ const handle = app.getRequestHandler();
 
 app.prepare().then(() => {
 	const server = express()
-
-	// static content
-	.use(express.static(__dirname + '/static'))
-
-	// custom URLs
+			
 	.get('/vcf', ({req, res}) => res.download(__dirname + '/static/Roman-Ožana.vcf', 'Roman Ožana.vcf'))
 	.get('/me', ({req, res}) => res.download(__dirname + '/static/img/roman-ozana.jpg', 'Roman Ožana.jpg'))
 

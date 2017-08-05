@@ -8,7 +8,7 @@ import work from './work.css';
 const Testomato = () =>
 		<article className="testomato">
 			<div>
-				<img src="/img/testomato.svg" alt=""/>
+				<img src="/static/img/testomato.svg" alt=""/>
 				<p>
 					I'm working on Testomato least four years as PHP/JS Developer.
 					Testomato starts as <Link href="/me"><a>one man project</a></Link>, from
@@ -44,7 +44,7 @@ const Testomato = () =>
 			</div>
 			<div>
 				<a href="https://www.testomato.com">
-					<img src="/img/work/testomato.png" alt=""/>
+					<img src="/static/img/work/testomato.png" alt=""/>
 				</a>
 			</div>
 		</article>;
@@ -52,7 +52,7 @@ const Testomato = () =>
 const Zdrojak = () =>
 		<article className="zdrojak">
 			<div>
-				<img src="/img/zdrojak.svg" alt=""/>
+				<img src="/static/img/zdrojak.svg" alt=""/>
 				<p>
 					Zdrojak.cz is one of most known czech mags about development. Current version is based on Wordpress
 					with a <abbr title="A lot of in-house plugins and tons of small modifications">specific modifications</abbr>.
@@ -70,7 +70,7 @@ const Zdrojak = () =>
 			</div>
 			<div>
 				<a href="https://www.testomato.com">
-					<img src="/img/work/zdrojak.png" alt=""/>
+					<img src="/static/img/work/zdrojak.png" alt=""/>
 				</a>
 			</div>
 		</article>;
@@ -78,7 +78,7 @@ const Zdrojak = () =>
 const Sphido = () =>
 		<article className="sphido">
 			<a href="http://www.sphido.org" target="_sphido">
-				<img src="/img/sphido.svg" alt="Sphido Logo" className="/img-responsive"/>
+				<img src="/static/img/sphido.svg" alt="Sphido Logo" className="/img-responsive"/>
 			</a>
 			<p className="h2">A rocket fast, lightweight, flat file CMS for PHP</p>
 			<div className="buttons">
