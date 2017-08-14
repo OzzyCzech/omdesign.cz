@@ -1,4 +1,5 @@
-@import '../node_modules/bootstrap/dist/css/bootstrap-reboot.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-reboot.css';
+@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
 
 header {
   nav {
@@ -28,6 +29,7 @@ header {
         padding: 15px 25px;
         cursor: pointer;
       }
+
       a:hover {
         background: rgba(255, 255, 255, .1);
       }

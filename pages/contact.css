@@ -1,6 +1,11 @@
 @import '../components/layout.css';
 
 .contact-information {
+  display: grid;
   background: #FFCC00;
-  display: flex;
+}
+
+.contact-social {
+  text-align: center;
+  padding: 50px;
 }

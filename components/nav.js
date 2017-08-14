@@ -1,7 +1,6 @@
 import Link from 'next/link'
 
 export default ({active = '/'}) => (
-
 		<nav>
 			<ul>
 				<Link prefetch href="/">

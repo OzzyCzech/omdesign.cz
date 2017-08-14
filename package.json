@@ -6,9 +6,8 @@
     "start": "NODE_ENV=production babel-node server.js"
   },
   "dependencies": {
-    "bootstrap": "alpha",
-    "express": "^4.15.3",
-    "next": "v3-beta",
+    "express": "^4.15.4",
+    "next": "3.0.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
@@ -20,12 +19,12 @@
     "babel-preset-env": "^1.6.0",
     "css-loader": "^0.28.4",
     "glob": "^7.1.2",
-    "postcss": "^6.0.8",
+    "postcss": "^6.0.9",
     "postcss-clean": "^1.0.3",
     "postcss-cssnext": "^3.0.2",
     "postcss-easy-import": "^2.1.0",
     "postcss-loader": "^2.0.6",
-    "postcss-nested": "^2.1.0",
+    "postcss-nested": "^2.1.1",
     "raw-loader": "^0.5.1",
     "style-loader": "^0.18.2"
   }

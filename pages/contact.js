@@ -14,23 +14,23 @@ const ContactInformation = () =>
 				<a href="/me" title="Download image..." className="avatar"></a>
 			</div>
 			<div>
-				<ul className="list-unstyled">
+				<ul>
 					<li>
-						<span>Email:</span>
+						<strong>Email:</strong>
 						<a href="mailto:ozana@omdesign.cz">ozana@omdesign.cz</a>
 					</li>
 					<li>
-						<span>Mobile:</span>
+						<strong>Mobile:</strong>
 						<a href="tel:+420605783455" itemprop="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a>
 					</li>
 					<li>
-						<span>IČ:</span>
+						<strong>IČ:</strong>
 						<a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&amp;Action=Search&amp;ICO=87098504"
 						   title="Registration number" target="_blank">87098504</a>
 					</li>
 					<li>
-						<span>Address:</span>
-						<span><i className="icon-location"></i>Prague, Czech Republic</span>
+						<strong>Address:</strong>
+						<span><i className="material-icons">location_on</i>Prague, Czech Republic</span>
 					</li>
 				</ul>
 			</div>
@@ -38,10 +38,11 @@ const ContactInformation = () =>
 
 const ContactFooter = () =>
 		<section className="contact-social">
-			<a href="http://www.twitter.com/OzzyCzech" target="_blank" title="Twitter"><i className="icon-twitter"></i></a>
-			<a href="https://www.facebook.com/roman.ozana" target="_blank" title="Facebook"><i className="icon-facebook"></i></a>
-			<a href="https://www.linkedin.com/in/romanozana"><i className="icon-linkedin"></i></a>
-			<a href="/vcf" title="Download vCard"><i className="icon-download"></i></a>
+			<a href="https://github.com/OzzyCzech/"><img src="/static/github.svg" alt="GitHub"/></a>
+			<a href="https://www.twitter.com/OzzyCzech"><img src="/static/twitter.svg" alt="Twitter"/></a>
+			<a href="https://www.facebook.com/roman.ozana"><img src="/static/facebook.svg" alt="Facebook"/></a>
+			<a href="https://www.linkedin.com/in/romanozana"><img src="/static/linkedin.svg" alt="LinkedIn"/></a>
+			<a href="/vcf" title="Download vCard"><i className="material-icons">file_download</i></a>
 		</section>;
 
 
