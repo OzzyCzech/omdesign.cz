@@ -24,8 +24,8 @@ export default () => (
 
 			<footer>
 				<p>
-					Made with <span>&hearts;</span> on <a href="https://www.apple.com" target="_blank">Mac</a> and <a
-						href="https://github.com/zeit/next.js" target="_blank">Next.js</a>
+					Made with <span>&hearts;</span> on <a href="https://www.apple.com" target="_blank">Mac</a> and{' '}
+					<a href="https://github.com/zeit/next.js" target="_blank">Next.js</a>
 				</p>
 			</footer>
 

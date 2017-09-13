@@ -38,11 +38,11 @@ const ContactInformation = () =>
 
 const ContactFooter = () =>
 		<section className="contact-social">
-			<a href="https://github.com/OzzyCzech/"><img src="/static/github.svg" alt="GitHub"/></a>
-			<a href="https://www.twitter.com/OzzyCzech"><img src="/static/twitter.svg" alt="Twitter"/></a>
-			<a href="https://www.facebook.com/roman.ozana"><img src="/static/facebook.svg" alt="Facebook"/></a>
-			<a href="https://www.linkedin.com/in/romanozana"><img src="/static/linkedin.svg" alt="LinkedIn"/></a>
-			<a href="/vcf" title="Download vCard"><i className="material-icons">file_download</i></a>
+			<a href="https://github.com/OzzyCzech/" target="_blank">GitHub</a>{' '}&bull;{' '}
+			<a href="https://www.twitter.com/OzzyCzech" target="_blank">Twitter</a>{' '}&bull;{' '}
+			<a href="https://www.facebook.com/roman.ozana" target="_blank">Facebook</a>{' '}&bull;{' '}
+			<a href="https://www.linkedin.com/in/romanozana" target="_blank">LinkedIn</a>{' '}&bull;{' '}
+			<a href="/vcf" title="Download vCard">VCard</a>
 		</section>;
 
 
@@ -53,9 +53,9 @@ export default () => (
 				<Nav active="contact"/>
 			</header>
 			<main>
-				<ContactClaim />
-				<ContactInformation />
-				<ContactFooter />
+				<ContactClaim/>
+				<ContactInformation/>
+				<ContactFooter/>
 			</main>
 		</Layout>
 )
