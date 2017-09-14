@@ -1,38 +1,32 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-reboot.css';
-@import 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
 
 header {
   nav {
     display: flex;
-    font-size: 22px;
-    font-weight: 200;
-    background: #1F1F21;
-    color: #fff;
+    border-bottom: 1px solid #ddd;
 
     ul {
       display: flex;
       margin: auto;
     }
 
+    ul li {
+      display: block;
+    }
+
     ul {
-      li {
-        display: block;
-      }
 
       li.active a {
-        background: rgba(255, 255, 255, 0.1);
-        transition: background-color 400ms ease-in;
+        border-bottom: 4px solid #ddd;
+        padding-bottom: 11px;
       }
 
       a {
-        display: block;
         padding: 15px 25px;
         cursor: pointer;
+        display: block;
       }
 
-      a:hover {
-        background: rgba(255, 255, 255, .1);
-      }
     }
   }
 }
@@ -53,8 +47,8 @@ img, embed, object, audio, video {
   cursor: pointer;
   filter: grayscale(100%);
 
-  width: 22rem;
-  height: 22rem;
+  width: 200px;
+  height: 200px;
 
   &:hover {
     filter: none;

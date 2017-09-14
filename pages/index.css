@@ -2,15 +2,15 @@
 
 .page {
   display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
 main {
-  background: #f7f7f7;
-  text-align: center;
+
 }
 
 .page > footer {
-  background: #fff;
   border-top: 1px solid #eee;
   text-align: center;
   padding: 20px;

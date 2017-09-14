@@ -1,11 +1,25 @@
 @import '../components/layout.css';
 
-.contact-information {
+.page {
   display: grid;
-  background: #FFCC00;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
 }
 
-.contact-social {
+main {
+  display: grid;
+}
+
+.page section {
   text-align: center;
-  padding: 50px;
+}
+
+section.contact-information {
+  justify-self: center;
+  align-self: center;
+}
+
+section.contact-social {
+  padding: 50px 20px;
+  border-top: 1px solid #e5e5e5;
 }

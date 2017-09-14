@@ -144,9 +144,9 @@ const AndMore = () =>
 		</article>;
 
 export default () => (
-		<Layout active="work" css={work}>
+		<Layout css={work}>
 			<Head>
-				<title>Work</title>
+				<title>Work | Roman Ožana</title>
 			</Head>
 
 			<header >
