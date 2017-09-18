@@ -1,1 +1,63 @@
 @import '../../components/layout.css';
+
+main {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 15px;
+
+  h1 {
+    text-align: center;
+    margin: 50px;
+  }
+
+  h2 {
+    border-bottom: 1px solid #ddd;
+  }
+
+  h3, h4 {
+    font-weight: normal;
+  }
+
+  h4 {
+    font-style: italic;
+  }
+}
+
+.photo {
+  display: block;
+  border-radius: 999px;
+  width: 180px;
+  margin: 10px auto;
+}
+
+article {
+  padding: 15px 10px;
+
+  small {
+    color: #a9a9a9;
+    float: right;
+    font-weight: 200;
+  }
+  *:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+section.download {
+  margin: 40px 0;
+  text-align: center;
+
+  a {
+    padding: 20px 25px;
+    border-radius: 3px;
+    display: inline-block;
+    background: #0056b3;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+section.social {
+  padding: 50px 20px;
+  border-top: 1px solid #e5e5e5;
+}

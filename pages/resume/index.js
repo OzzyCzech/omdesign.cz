@@ -2,14 +2,14 @@ import Layout from "../../components/layout"
 import Head from 'next/head'
 import Nav from "../../components/nav"
 import resume from './resume.css'
-import humanizeDuration from 'humanize-duration';
+import SocialMedia from '../../components/social-media';
 
 import Experiences from './experiences';
 
 export default () => (
 		<Layout css={resume}>
 			<Head>
-				<title>Resume | Roman Ožana</title>
+				<title>Resume | Ing. Roman Ožana</title>
 			</Head>
 
 			<header className="hidden-print">
@@ -17,8 +17,10 @@ export default () => (
 			</header>
 
 			<main>
+				<img src="/static/img/roman-ozana.jpg" alt="" className="photo visible-print-inline-block"/>
+				<h1>Ing. Roman Ožana <span className="visible-print-inline">&ndash; Resume</span></h1>
 				<Experiences/>
-				<section className="resume-skills-expertise">
+				<section className="skills-expertise">
 					<h2>Skills &amp; Expertise</h2>
 
 					<article>
@@ -26,7 +28,7 @@ export default () => (
 						<ul>
 							<li>PHP up to 7.1</li>
 							<li>OOP, DI, IOC, design patterns</li>
-							<li>Linux</li>
+							<li>Linux, MacOS</li>
 						</ul>
 					</article>
 
@@ -43,8 +45,8 @@ export default () => (
 						<h3>Frontend</h3>
 						<ul>
 							<li>Javascript ES5 + ES6</li>
-							<li>Angular 1.x, React, jQuery</li>
-							<li>HTML5, CSS3 + incl. common preprocessors</li>
+							<li>Angular, React, jQuery</li>
+							<li>HTML5, CSS3 + incl. preprocessors</li>
 							<li>Basics of Photoshop CS6 and Adobe Illustrator</li>
 						</ul>
 					</article>
@@ -66,37 +68,51 @@ export default () => (
 					</article>
 				</section>
 
-				<section className="resume-languages">
+				<section className="languages">
 					<h2>Languages</h2>
 
+					<article>
+						<ul>
+							<li>Czech - native language</li>
+							<li>English - communicative</li>
+						</ul>
+					</article>
 				</section>
 
 				<section className="resume-additional-info">
 					<h2>Additional Info</h2>
-
+					<article>
+						<ul>
+							<li>Driving license: B</li>
+						</ul>
+					</article>
 				</section>
 
-				<section className="resume-education">
+				<section className="education">
 					<h2>Education</h2>
 					<article>
 						<h3>VŠB - Technical University of Ostrava</h3>
 						<h4>2002 – 2007: Geoinformatics</h4>
 						<ul>
-							<li>
-								<strong>Study program:</strong> {' '}
-								<a href="//goo.gl/ZPtBm" target="_blank">Geodesy and cartography, Geoinformaticsa</a>
-							</li>
-							<li><strong>Degree:</strong> Master's degree (Msc., Geoingormatics)</li>
-							<li><strong>Address:</strong> VŠB – Technical university of Ostrava, 17.listopadu 15, Ostrava – Poruba,
+							<li>Study program: Geodesy and cartography, Geoinformatics</li>
+							<li>Degree: Master's degree (Msc., Geoingormatics)</li>
+							<li>Address: VŠB – Technical university of Ostrava, 17.listopadu 15, Ostrava – Poruba,
 								Faculty of Mining and Geology - <a href="http://goo.gl/knKOR" target="_blank">map</a>
 							</li>
 						</ul>
 					</article>
 				</section>
+
+				<section className="download hidden-print">
+					<a href="TODO">Download as PDF</a>
+				</section>
 			</main>
 
 			<footer>
-				<a href="TODO">Download as PDF</a>
+				<center>
+					<SocialMedia/>
+
+				</center>
 			</footer>
 		</Layout>
 )

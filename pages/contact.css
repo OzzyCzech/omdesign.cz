@@ -14,12 +14,12 @@ main {
   text-align: center;
 }
 
-section.contact-information {
+section.contact {
   justify-self: center;
   align-self: center;
 }
 
-section.contact-social {
+section.social {
   padding: 50px 20px;
   border-top: 1px solid #e5e5e5;
 }

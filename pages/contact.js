@@ -1,10 +1,12 @@
 import Layout from '../components/layout'
 import Nav from '../components/nav'
+import SocialMedia from '../components/social-media';
 import Head from 'next/head'
 import contact from './contact.css'
 
+
 const ContactInformation = () =>
-		<section className="contact-information">
+		<section className="contact">
 
 			<a href="/me" title="Download image..." className="avatar"></a>
 
@@ -20,15 +22,6 @@ const ContactInformation = () =>
 				IČ: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504"
 				       title="Registration number" target="_blank">87098504</a>
 			</p>
-		</section>;
-
-const SocialMedia = () =>
-		<section className="contact-social">
-			<a href="https://github.com/OzzyCzech/" target="_blank">GitHub</a>{' '}&bull;{' '}
-			<a href="https://www.twitter.com/OzzyCzech" target="_blank">Twitter</a>{' '}&bull;{' '}
-			<a href="https://www.facebook.com/roman.ozana" target="_blank">Facebook</a>{' '}&bull;{' '}
-			<a href="https://www.linkedin.com/in/romanozana" target="_blank">LinkedIn</a>{' '}&bull;{' '}
-			<a href="/vcf" title="Download vCard">VCard</a>
 		</section>;
 
 
