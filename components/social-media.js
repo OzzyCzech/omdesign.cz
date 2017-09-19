@@ -1,4 +1,3 @@
-
 export default () => (
 		<section className="social">
 			<a href="https://github.com/OzzyCzech/" target="_blank">GitHub</a>{' '}&bull;{' '}

@@ -101,18 +101,19 @@ export default () => (
 							</li>
 						</ul>
 					</article>
+					<article>
+						<h3>SPŠE Rožnov pod Radhoštěm</h3>
+						<h4>1997 – 2001: Electronic computer systems </h4>
+					</article>
 				</section>
 
 				<section className="download hidden-print">
-					<a href="TODO">Download as PDF</a>
+					<a href="TODO">▼ Download as PDF</a>
 				</section>
 			</main>
 
 			<footer>
-				<center>
-					<SocialMedia/>
-
-				</center>
+				<SocialMedia/>
 			</footer>
 		</Layout>
 )
