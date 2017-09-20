@@ -1,5 +1,11 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap-reboot.css';
 
+
+img, embed, object, audio, video {
+  height: auto;
+  max-width: 100%
+}
+
 header {
   nav {
     display: flex;
@@ -29,11 +35,20 @@ header {
 
     }
   }
+
+  @media print {
+    display: none;
+  }
 }
 
-img, embed, object, audio, video {
-  height: auto;
-  max-width: 100%
+@media print {
+  @page {
+    margin: 0.8cm;
+  }
+
+  .no-print {
+    display: none !important
+  }
 }
 
 .avatar {
@@ -55,66 +70,34 @@ img, embed, object, audio, video {
   }
 }
 
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
+section.social {
+  padding: 50px 20px;
+  border-top: 1px solid #e5e5e5;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  touch-action: manipulation;
-  cursor: pointer;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-}
 
-a.btn {
-  text-decoration: none;
-}
+  span {
+    margin: 0 5px;
+    @media print {
+      display: none;
+    }
+  }
 
-.btn-hollow {
-  font-size: 18px;
-  border: 1px solid #fff;
-}
+  @media print {
+    text-align: left;
+    padding: 15px;
 
-// Print rules
+    a {
+      display: block;
+      color: inherit;
+      font-weight: bold;
+      text-decoration: none;
+      width: 100%;
+    }
 
-.visible-print-block {
-  display: none !important
-}
-
-@media print {
-  .visible-print-block {
-    display: block !important
+    a[href]:after {
+      content: ":\a0" attr(href);
+      font-weight: normal;
+    }
   }
 }
 
-.visible-print-inline {
-  display: none !important
-}
-
-@media print {
-  .visible-print-inline {
-    display: inline !important
-  }
-}
-
-.visible-print-inline-block {
-  display: none !important
-}
-
-@media print {
-  .visible-print-inline-block {
-    display: inline-block !important
-  }
-}
-
-@media print {
-  .hidden-print {
-    display: none !important
-  }
-}

@@ -6,64 +6,92 @@ import SocialMedia from '../../components/social-media';
 
 import Experiences from './experiences';
 
+function experiences() {
+	let d = new Date();
+	return d.getFullYear() - 2009;
+}
+
 export default () => (
 		<Layout css={resume}>
 			<Head>
 				<title>Resume | Ing. Roman Ožana</title>
 			</Head>
 
-			<header className="hidden-print">
+			<header>
 				<Nav active="resume"/>
 			</header>
 
 			<main>
-				<img src="/static/img/roman-ozana.jpg" alt="" className="photo visible-print-inline-block"/>
-				<h1>Ing. Roman Ožana <span className="visible-print-inline">&ndash; Resume</span></h1>
+
+				<h1>Ing. Roman Ožana / Resume</h1>
+
+				<section className="intro">
+
+					<img src="/static/img/roman-ozana.jpg" alt="Roman Ožana"/>
+					<p>Hi there,</p>
+					<p>
+						my name is Roman Ožana. I am a freelance webdesigner and developer with <strong>more than {experiences()} years of
+						experiences</strong>. I'm here to create websites and applications easy to use, intuitive and modern inside. I love tech
+						startups and community around. I enjoy working in small and effective team.
+					</p>
+
+					<p>Say hi on Twitter <a href="https://www.twitter.com/OzzyCzech">@OzzyCzech</a></p>
+
+					<ul>
+						<li>Address: Prague, Přímětická st.</li>
+						<li>Web: <a href="https://www.omdesign.cz">www.omdesign.cz</a></li>
+						<li>Email: <a href="mailto:ozana@omdesign.cz?subject=Resume">ozana@omdesign.cz</a></li>
+						<li>Phone: <a href="tel:+420605783455" itemprop="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a></li>
+					</ul>
+				</section>
+
 				<Experiences/>
-				<section className="skills-expertise">
-					<h2>Skills &amp; Expertise</h2>
 
+				<section className="skills">
+					<h2>Skills &amp; Technologies</h2>
 					<article>
-						<h3>Server</h3>
+						<h3>Day-to-day comfort</h3>
 						<ul>
-							<li>PHP up to 7.1</li>
+							<li>PHP (up to 7.x)</li>
 							<li>OOP, DI, IOC, design patterns</li>
-							<li>Linux, MacOS</li>
-						</ul>
-					</article>
-
-					<article>
-						<h3>Databases</h3>
-						<ul>
 							<li>SQL language</li>
-							<li>MySQL</li>
-							<li>Redis, MongoDB, Memcached</li>
-						</ul>
-					</article>
-
-					<article>
-						<h3>Frontend</h3>
-						<ul>
+							<li>MySQL, Redis, MongoDB, Memcached</li>
 							<li>Javascript ES5 + ES6</li>
-							<li>Angular, React, jQuery</li>
-							<li>HTML5, CSS3 + incl. preprocessors</li>
+							<li>Angular, jQuery</li>
+							<li>HTML5, CSS3 (incl. LESS, Sass, cssnext, PostCSS)</li>
+							<li>Webpack &amp; Makefile</li>
+							<li>Responsive Layout and Design</li>
 							<li>Basics of Photoshop CS6 and Adobe Illustrator</li>
 						</ul>
 					</article>
 
 					<article>
-						<h3>Testing</h3>
+						<h3>Experimnce with</h3>
 						<ul>
-							<li>
-								E2E: {' '}
-								<a href="https://github.com/angular/protractor" target="_blank">Protractor</a>, {' '}
-								<a href="http://www.seleniumhq.org/" target="_blank">Selenium</a>
-							</li>
-							<li>
-								Unit: {' '}
-								<a href="https://phpunit.de/" target="_blank">PHP Unit</a>, {' '}
-								<a href="https://github.com/mochajs/mocha" target="_blank">Mocha</a>
-							</li>
+							<li>React, NextJS</li>
+							<li>Gulp &amp; Grunt</li>
+							<li>Couchbase</li>
+							<li>NodeJS</li>
+						</ul>
+					</article>
+
+					<article>
+						<h3>Quality assurance</h3>
+						<ul>
+							<li>E2E testing with Protractor</li>
+							<li>Selenium + Selenium IDE</li>
+							<li>Unit Testing (PHP Unit, Nette Tester, Mocha)</li>
+						</ul>
+					</article>
+
+					<article>
+						<h3>DevStack</h3>
+						<ul>
+							<li>Docker</li>
+							<li>Version Control (GIT)</li>
+							<li>Webpack, Makefile</li>
+							<li>Travis &amp; GitLab CI</li>
+							<li>Linux, MacOS</li>
 						</ul>
 					</article>
 				</section>
@@ -73,8 +101,8 @@ export default () => (
 
 					<article>
 						<ul>
-							<li>Czech - native language</li>
-							<li>English - communicative</li>
+							<li>Czech &ndash; native language</li>
+							<li>English &ndash; communicative</li>
 						</ul>
 					</article>
 				</section>
@@ -91,14 +119,12 @@ export default () => (
 				<section className="education">
 					<h2>Education</h2>
 					<article>
-						<h3>VŠB - Technical University of Ostrava</h3>
+						<h3>VŠB &ndash; Technical University of Ostrava</h3>
 						<h4>2002 – 2007: Geoinformatics</h4>
 						<ul>
 							<li>Study program: Geodesy and cartography, Geoinformatics</li>
 							<li>Degree: Master's degree (Msc., Geoingormatics)</li>
-							<li>Address: VŠB – Technical university of Ostrava, 17.listopadu 15, Ostrava – Poruba,
-								Faculty of Mining and Geology - <a href="http://goo.gl/knKOR" target="_blank">map</a>
-							</li>
+							<li>Address: VŠB – Technical university of Ostrava, 17.listopadu 15, Ostrava – Poruba, Faculty of Mining and Geology</li>
 						</ul>
 					</article>
 					<article>
@@ -107,8 +133,8 @@ export default () => (
 					</article>
 				</section>
 
-				<section className="download hidden-print">
-					<a href="TODO">▼ Download as PDF</a>
+				<section className="download">
+					<a href="/cv">▼ Download as PDF</a>
 				</section>
 			</main>
 

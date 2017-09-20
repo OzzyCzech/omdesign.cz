@@ -1,15 +1,12 @@
 import Layout from '../components/layout'
 import Nav from '../components/nav'
-import GitHub from '../components/github'
 import index from './index.css'
-
 
 export default () => (
 		<Layout css={index}>
 
 			<header>
 				<Nav/>
-				<GitHub/>
 			</header>
 
 			<main>

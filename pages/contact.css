@@ -10,16 +10,8 @@ main {
   display: grid;
 }
 
-.page section {
-  text-align: center;
-}
-
 section.contact {
   justify-self: center;
   align-self: center;
-}
-
-section.social {
-  padding: 50px 20px;
-  border-top: 1px solid #e5e5e5;
+  text-align: center;
 }
