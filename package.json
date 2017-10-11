@@ -6,27 +6,27 @@
     "start": "NODE_ENV=production babel-node server.js"
   },
   "dependencies": {
-    "express": "^4.15.4",
-    "moment": "^2.18.1",
-    "next": "3.0.3",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "express": "^4.16.2",
+    "moment": "^2.19.0",
+    "next": "4.0.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-loader": "^7.1.1",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-plugin-module-resolver": "^2.7.1",
     "babel-plugin-wrap-in-js": "^1.1.1",
     "babel-preset-env": "^1.6.0",
-    "css-loader": "^0.28.4",
+    "css-loader": "^0.28.7",
     "glob": "^7.1.2",
-    "postcss": "^6.0.9",
-    "postcss-clean": "^1.0.3",
+    "postcss": "^6.0.13",
+    "postcss-clean": "^1.1.0",
     "postcss-cssnext": "^3.0.2",
-    "postcss-easy-import": "^2.1.0",
-    "postcss-loader": "^2.0.6",
-    "postcss-nested": "^2.1.1",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.7",
+    "postcss-nested": "^2.1.2",
     "raw-loader": "^0.5.1",
-    "style-loader": "^0.18.2"
+    "style-loader": "^0.19.0"
   }
 }

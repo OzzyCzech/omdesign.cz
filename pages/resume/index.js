@@ -41,7 +41,7 @@ export default () => (
 						<li>Address: Prague, Přímětická st.</li>
 						<li>Web: <a href="https://www.omdesign.cz">www.omdesign.cz</a></li>
 						<li>Email: <a href="mailto:ozana@omdesign.cz?subject=Resume">ozana@omdesign.cz</a></li>
-						<li>Phone: <a href="tel:+420605783455" itemprop="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a></li>
+						<li>Phone: <a href="tel:+420605783455">+420&nbsp;605&nbsp;783&nbsp;455</a></li>
 					</ul>
 				</section>
 

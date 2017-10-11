@@ -1,50 +1,53 @@
-import Layout from "../components/layout"
-import Nav from "../components/nav"
+import Layout from "../../components/layout"
+import Nav from "../../components/nav"
 
-import Link from 'next/link'
 import Head from 'next/head'
 import work from './work.css';
+
+const RightArrow = () =>
+		<svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+			<path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+			<path d="M0-.25h24v24H0z" fill="none"/>
+		</svg>;
 
 const Testomato = () =>
 		<article className="testomato">
 			<div>
-				<img src="/static/img/testomato.svg" alt=""/>
+				<img src="/static/img/testomato.svg" alt="Testomato" className="logo"/>
 				<p>
-					I'm working on Testomato least four years as PHP/JS Developer.
-					Testomato starts as <Link href="/me"><a>one man project</a></Link>, from
-					green field, based on ideas of Michal Illich.
+					I'm working on <a href="https://www.testomato.com" target="_blank">Testomato</a> least four years as main
+					PHP/JS Developer. <a href="https://www.testomato.com" target="_blank">Testomato</a> starts as{' '}
+					<a href="https://www.testomato.com/about">one man project</a>, from green field, based on ideas of Michal Illich.
 				</p>
 
 				<p>
-					Testomato is a cloud-based <a href="https://www.testomato.com" target="_blank">automated monitoring tool</a>
-					for
-					checks any type of websites and alerts you to problems. It's fast and easiest way to monitor websites
-					automatically!
+					<a href="https://www.testomato.com" target="_blank">Testomato</a> is a cloud-based
+					<a href="https://www.testomato.com" target="_blank">automated monitoring tool</a>{' '}
+					for checks any type of websites and alerts you to problems. It's fast and easiest way to monitor websites automatically!
 				</p>
 
-				<h3>The Testomato Engine</h3>
+				<h3>Technologies &amp; Tools</h3>
 
 				<ul>
-					<li>Nette Framework and Zend Framework 1</li>
+					<li>PHP (Nette, Zend Framework)</li>
 					<li>Mysql, Memcached, Mongodb, Redis</li>
 					<li>our own <a href="https://github.com/testomato/minicrawler" target="_blank">Minicrawler</a></li>
-					<li>git, Selenium and unit tests</li>
+					<li>Docker, git, DI, CI, TDD, &hellip;</li>
+					<li>Angular JS + Javascript ES6</li>
+					<li>Webpack</li>
 				</ul>
 
-				<h3>The Testomato Face</h3>
-
-				<ul>
-					<li>Twitter Bootstrap with LESS</li>
-					<li>Angular JS, jQuery and Javascript</li>
-				</ul>
-
-				<p>
-					<a href="https://www.testomato.com" target="_blank" className="btn btn-hollow">Visit Testomato</a>
+				<p className="visit">
+					<a href="https://www.testomato.com" target="_blank">
+						Visit Testomato
+						<RightArrow/>
+					</a>
 				</p>
+
 			</div>
 			<div>
 				<a href="https://www.testomato.com">
-					<img src="/static/img/work/testomato.png" alt=""/>
+					<img src="/static/img/work/testomato.png" alt="" className="shadow"/>
 				</a>
 			</div>
 		</article>;
@@ -52,20 +55,39 @@ const Testomato = () =>
 const Zdrojak = () =>
 		<article className="zdrojak">
 			<div>
-				<img src="/static/img/zdrojak.svg" alt=""/>
+				<img src="/static/img/zdrojak.svg" alt="Zdrojak.cz" className="logo"/>
+
 				<p>
-					Zdrojak.cz is one of most known czech mags about development. Current version is based on Wordpress
-					with a <abbr title="A lot of in-house plugins and tons of small modifications">specific modifications</abbr>.
+
+
+					<a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> is one of the most famous Czech magazines about development.
 				</p>
 
 				<p>
-					I joined to Zdrojak.cz
-					since <a href="http://www.zdrojak.cz/clanky/novy-zdrojak-startuje-tri-dva-jedna/">rebirth</a> and
-					stay as <abbr title="Only one...">main developer</abbr> to present days.
+					I joined to <a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> team
+					since <a href="https://www.zdrojak.cz/clanky/novy-zdrojak-startuje-tri-dva-jedna/">rebirth</a> and stay
+					as main developer to present days.
 				</p>
 
-				<p className="text-center">
-					<a href="https://www.zdrojak.cz" target="_blank" className="btn btn-lg btn-hollow">Visit Zdrojak</a>
+				<p>
+					Current version was build on Wordpress with multiple in-house plugins, modifications and tweaks.
+				</p>
+
+				<h3>Technologies &amp; Tools</h3>
+
+				<ul>
+					<li>PHP (Wordpress), Javascript</li>
+					<li>MariaDB</li>
+					<li>Docker, git, CI</li>
+					<li>Webpack</li>
+				</ul>
+
+
+				<p className="visit">
+					<a href="https://www.zdrojak.cz" target="_blank" className="btn btn-lg btn-hollow">
+						Visit Zdrojak
+						<RightArrow/>
+					</a>
 				</p>
 			</div>
 			<div>
@@ -92,7 +114,7 @@ const Sphido = () =>
 
 const Wordpress = () =>
 		<article className="wordpress">
-			<h3>Plugins</h3>
+			<h3>Wordpress Plugins</h3>
 			<ul>
 				<li><a href="https://github.com/OzzyCzech/omSuggestContent">omSuggestContent</a> - A plugin for suggest
 					post content from registered users.
@@ -149,16 +171,16 @@ export default () => (
 				<title>Work | Roman Ožana</title>
 			</Head>
 
-			<header >
+			<header>
 				<Nav active="work"/>
 			</header>
 
 			<main>
-				<Testomato />
-				<Zdrojak />
-				<Sphido />
-				<Wordpress />
-				<AndMore />
+				<Testomato/>
+				<Zdrojak/>
+				<Sphido/>
+				<Wordpress/>
+				<AndMore/>
 			</main>
 
 		</Layout>
