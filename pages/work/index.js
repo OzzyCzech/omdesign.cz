@@ -1,6 +1,6 @@
 import Layout from "../../components/layout"
 import Nav from "../../components/nav"
-
+import GitHub from './github';
 import Head from 'next/head'
 import work from './work.css';
 
@@ -58,19 +58,13 @@ const Zdrojak = () =>
 				<img src="/static/img/zdrojak.svg" alt="Zdrojak.cz" className="logo"/>
 
 				<p>
-
-
-					<a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> is one of the most famous Czech magazines about development.
+					<a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> is one of the most famous Czech
+					magazines about development. I am there since <a href="https://www.zdrojak.cz/clanky/novy-zdrojak-startuje-tri-dva-jedna/">the rebirth</a> as
+					the lead developer and site administrator.
 				</p>
 
 				<p>
-					I joined to <a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> team
-					since <a href="https://www.zdrojak.cz/clanky/novy-zdrojak-startuje-tri-dva-jedna/">rebirth</a> and stay
-					as main developer to present days.
-				</p>
-
-				<p>
-					Current version was build on Wordpress with multiple in-house plugins, modifications and tweaks.
+					Current version is build on Wordpress and multiple in-house plugins, modifications and tweaks.
 				</p>
 
 				<h3>Technologies &amp; Tools</h3>
@@ -79,9 +73,8 @@ const Zdrojak = () =>
 					<li>PHP (Wordpress), Javascript</li>
 					<li>MariaDB</li>
 					<li>Docker, git, CI</li>
-					<li>Webpack</li>
+					<li>Webpack, Makefile</li>
 				</ul>
-
 
 				<p className="visit">
 					<a href="https://www.zdrojak.cz" target="_blank" className="btn btn-lg btn-hollow">
@@ -91,78 +84,60 @@ const Zdrojak = () =>
 				</p>
 			</div>
 			<div>
-				<a href="https://www.testomato.com">
-					<img src="/static/img/work/zdrojak.png" alt=""/>
-				</a>
+				<a href="https://www.testomato.com"><img src="/static/img/work/zdrojak.png" alt=""/></a>
 			</div>
 		</article>;
 
 const Sphido = () =>
 		<article className="sphido">
 			<a href="http://www.sphido.org" target="_sphido">
-				<img src="/static/img/sphido.svg" alt="Sphido Logo" className="/img-responsive"/>
+				<img src="/static/img/sphido.svg" alt="Sphido Logo"/>
 			</a>
-			<p className="h2">A rocket fast, lightweight, flat file CMS for PHP</p>
-			<div className="buttons">
-				<a href="https://github.com/sphido" target="_blank" className="btn btn-lg btn-default">
-					<i className="icon-github-circled"></i> GitHub
-				</a>
-				<a href="https://www.sphido.org" target="_sphido" className="btn btn-lg btn-default">sphido.org</a>
-			</div>
+			<p>A rocket fast, lightweight, flat file CMS for PHP</p>
+			<p>
+				<a href="https://github.com/sphido" target="_blank">GitHub</a>
+				<a href="https://sphido.org" target="_blank">Sphido.org</a>
+			</p>
 		</article>;
 
 
 const Wordpress = () =>
 		<article className="wordpress">
-			<h3>Wordpress Plugins</h3>
-			<ul>
-				<li><a href="https://github.com/OzzyCzech/omSuggestContent">omSuggestContent</a> - A plugin for suggest
-					post content from registered users.
-				</li>
-				<li><a href="https://github.com/OzzyCzech/omSocialButtons">omSocialButtons</a> - Simple plugin for
-					Twitter, Facebook, Google Plus and Flatter social buttons in Wordpress posts
-				</li>
-				<li><a href="https://github.com/OzzyCzech/omShares">omShares</a> - Automatically update number of shares
-					via different social networks
-				</li>
-				<li><a href="https://github.com/OzzyCzech/omLightbox">omLightBox</a> - Simple Lightbox for Wordpress</li>
-				<li><a href="https://github.com/OzzyCzech/omPreformat">omPreformat</a> - Plugin for adding preformatted
-					text to post easily
-				</li>
-				<li><a href="https://github.com/OzzyCzech/omSocialLogin">omSocialLogin</a> - Login via Facebook, Twitter
-					of G+
-				</li>
-				<li><a href="https://github.com/OzzyCzech/omEmoji">omEmoji</a> - Add bunch of emoticons to posts</li>
-				<li><a href="https://github.com/OzzyCzech/omRememberMe">omRememberMe</a> - Always remember Wordpress user
-					for ever after successful login
-				</li>
-				<li><a href="https://github.com/OzzyCzech/omLinks">omLinks</a> - Wordpress plugin in post URL replacement
-				</li>
-				<li><a href="https://github.com/OzzyCzech/omUserPhotos">omUserPhotos</a> - Add custom user photo</li>
-				<li><a href="https://github.com/OzzyCzech/omTaxonomyImages">omTaxonomyImages</a> - Add images for
-					taxonomies
-				</li>
-				<li>and <a href="https://github.com/OzzyCzech/">more</a></li>
-			</ul>
-			<h3>Websites</h3>
-			<ul>
-				<li><a href="https://blog.testomato.com/" target="_blank" rel="nofollow">blog.testomato.com</a></li>
-				<li><a href="http://www.portalbozp.com" target="_blank" rel="nofollow">portalbozp.cz</a></li>
-				<li><a href="http://www.zuboz.com" target="_blank" rel="nofollow">zuboz.cz</a></li>
-				<li><a href="http://www.tempo-reality.cz/" target="_blank" rel="nofollow">tempo-reality.cz</a></li>
-				<li>and more&hellip;</li>
-			</ul>
+			<div>
+				<h3>Wordpress Plugins</h3>
+				<ul>
+					<li><a href="https://github.com/OzzyCzech/omSuggestContent">omSuggestContent</a> - A plugin for suggest post content from registered users.</li>
+					<li><a href="https://github.com/OzzyCzech/omSocialButtons">omSocialButtons</a> - Simple plugin for Twitter, Facebook, Google Plus and Flatter social buttons in Wordpress posts</li>
+					<li><a href="https://github.com/OzzyCzech/omShares">omShares</a> - Automatically update number of shares via different social networks</li>
+					<li><a href="https://github.com/OzzyCzech/omLightbox">omLightBox</a> - Simple Lightbox for Wordpress</li>
+					<li><a href="https://github.com/OzzyCzech/omPreformat">omPreformat</a> - Plugin for adding preformatted text to post easily</li>
+					<li><a href="https://github.com/OzzyCzech/omSocialLogin">omSocialLogin</a> - Login via Facebook, Twitter of G+</li>
+					<li><a href="https://github.com/OzzyCzech/omEmoji">omEmoji</a> - Add bunch of emoticons to posts</li>
+					<li><a href="https://github.com/OzzyCzech/omRememberMe">omRememberMe</a> - Always remember Wordpress user for ever after successful login</li>
+					<li><a href="https://github.com/OzzyCzech/omLinks">omLinks</a> - Wordpress plugin in post URL replacement</li>
+					<li><a href="https://github.com/OzzyCzech/omUserPhotos">omUserPhotos</a> - Add custom user photo</li>
+					<li><a href="https://github.com/OzzyCzech/omTaxonomyImages">omTaxonomyImages</a> - Add images for taxonomies</li>
+					<li><a href="https://github.com/OzzyCzech/">and more&hellip;</a></li>
+				</ul>
+			</div>
+			<div>
+				<h3>Websites</h3>
+				<ul>
+					<li><a href="https://blog.testomato.com/" target="_blank" rel="nofollow">blog.testomato.com</a></li>
+					<li><a href="http://www.portalbozp.com" target="_blank" rel="nofollow">portalbozp.cz</a></li>
+					<li><a href="http://www.zuboz.com" target="_blank" rel="nofollow">zuboz.cz</a></li>
+					<li><a href="http://www.tempo-reality.cz/" target="_blank" rel="nofollow">tempo-reality.cz</a></li>
+					<li>and more&hellip;</li>
+				</ul>
+			</div>
 		</article>;
 
 const AndMore = () =>
 		<article className="and-more">
-			<h2>and more&hellip;</h2>
 			<p>
-				<a href="https://github.com/OzzyCzech" target="_blank" className="btn btn-lg btn-primary">
-					<i className="icon-github-circled"></i>
-					GitHub
-				</a>
+				<a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile"><img src="/static/img/github.svg" alt="GitHub"/></a>
 			</p>
+			<GitHub/>
 		</article>;
 
 export default () => (

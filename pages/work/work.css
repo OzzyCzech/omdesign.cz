@@ -54,3 +54,31 @@ article.zdrojak {
   color: #fff;
   grid-template-columns: repeat(2, 1fr);
 }
+
+article.sphido {
+  text-align: center;
+  img {
+    padding: 20px;
+  }
+
+  p > a {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  p > a:hover {
+    background-color: #f5f5f5;
+  }
+}
+
+article.wordpress {
+  background: #ededed;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+article.and-more {
+  text-align: center;
+}
