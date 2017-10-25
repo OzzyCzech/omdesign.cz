@@ -15,3 +15,8 @@ section.contact {
   align-self: center;
   text-align: center;
 }
+
+svg {
+  vertical-align: top;
+  display: inline-block;
+}
