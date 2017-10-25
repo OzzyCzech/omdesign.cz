@@ -94,6 +94,12 @@ section.download {
     color: #fff;
   }
 
+  svg {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 3px;
+  }
+
   @media print {
     display: none;
   }
