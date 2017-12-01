@@ -1,6 +1,6 @@
-import Layout from '../components/layout'
-import Nav from '../components/nav'
-import SocialMedia from '../components/social-media';
+import Layout from '../../components/layout'
+import Nav from '../../components/nav'
+import SocialMedia from '../../components/social-media';
 import Head from 'next/head'
 import contact from './contact.css'
 

@@ -11,15 +11,25 @@ export default () => (
 
 			<main>
 				<article>
-					<h1>Roman Ožana</h1>
-					<p><a href="https://www.google.cz/search?q=Prague">Prague</a> based</p>
-					<p><strong>a freelance web designer</strong> based in Prague.</p>
+
+
+					<h1>Hi, I'm Roman.</h1>
+
+					<p>
+						a	freelance frontend / backend / developer
+						from <span title="From Prague :-)">Czech Republic</span>
+					</p>
+
+					<h1><a href="mailto:roman@omdesign.cz">roman@omdesign.cz</a></h1>
+
 				</article>
+
+
 			</main>
 
 			<footer>
 				<p>
-					Made with <span>&hearts;</span>
+					Made by <span>&#10084;</span> on &#63743;
 				</p>
 			</footer>
 

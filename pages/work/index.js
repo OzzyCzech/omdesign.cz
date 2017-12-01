@@ -1,6 +1,5 @@
 import Layout from "../../components/layout"
 import Nav from "../../components/nav"
-import GitHub from './github';
 import Head from 'next/head'
 import work from './work.css';
 
@@ -135,9 +134,9 @@ const Wordpress = () =>
 const AndMore = () =>
 		<article className="and-more">
 			<p>
+				<h2><a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile">GitHub</a></h2>
 				<a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile"><img src="/static/img/github.svg" alt="GitHub"/></a>
 			</p>
-			<GitHub/>
 		</article>;
 
 export default () => (
