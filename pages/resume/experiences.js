@@ -24,8 +24,6 @@ export const Testomato = () =>
 
 			<h4>March 2012 &ndash; present</h4>
 
-			<p></p>
-
 		</article>;
 
 const Devel = () =>

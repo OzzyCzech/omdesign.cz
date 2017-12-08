@@ -12,9 +12,11 @@ const ContactInformation = () =>
 
 			<h1>Ing. Roman Ožana</h1>
 
-			<h1><a href="mailto:ozana@omdesign.cz">ozana@omdesign.cz</a></h1>
+			<h1><a href="mailto:roman@omdesign.cz">roman@omdesign.cz</a></h1>
 
-			<p><a href="tel:+420605783455" itemprop="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a></p>
+			<p>
+				<a href="tel:+420605783455" itemprop="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a> | <a href="http://m.me/roman.ozana">Messenger</a>
+			</p>
 
 			<p>
 				<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -29,6 +31,15 @@ const ContactInformation = () =>
 				IČ: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504"
 				       title="Registration number" target="_blank">87098504</a>
 			</p>
+
+			<a href="/vcf" className="download">
+				<svg fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+					<path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
+					<path d="M0 0h24v24H0z" fill="none"/>
+				</svg>
+				Download as VCard
+			</a>
+
 		</section>;
 
 

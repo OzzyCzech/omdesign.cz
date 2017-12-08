@@ -4,7 +4,7 @@ import Head from 'next/head'
 import work from './work.css';
 
 const RightArrow = () =>
-		<svg fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+		<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 			<path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
 			<path d="M0-.25h24v24H0z" fill="none"/>
 		</svg>;
@@ -36,9 +36,9 @@ const Testomato = () =>
 					<li>Webpack</li>
 				</ul>
 
-				<p className="visit">
-					<a href="https://www.testomato.com" target="_blank">
-						Visit Testomato
+				<p>
+					<a href="https://www.testomato.com" target="_blank" className="visit">
+						Testomato.com
 						<RightArrow/>
 					</a>
 				</p>
@@ -75,9 +75,9 @@ const Zdrojak = () =>
 					<li>Webpack, Makefile</li>
 				</ul>
 
-				<p className="visit">
-					<a href="https://www.zdrojak.cz" target="_blank" className="btn btn-lg btn-hollow">
-						Visit Zdrojak
+				<p>
+					<a href="https://www.zdrojak.cz" target="_blank" className="visit">
+						Zdrojak.cz
 						<RightArrow/>
 					</a>
 				</p>
@@ -94,8 +94,10 @@ const Sphido = () =>
 			</a>
 			<p>A rocket fast, lightweight, flat file CMS for PHP</p>
 			<p>
-				<a href="https://github.com/sphido" target="_blank">GitHub</a>
-				<a href="https://sphido.org" target="_blank">Sphido.org</a>
+				<a href="https://sphido.org" target="_blank" className="visit dark">
+					Sphido.org
+					<RightArrow/>
+				</a>
 			</p>
 		</article>;
 
@@ -134,8 +136,10 @@ const Wordpress = () =>
 const AndMore = () =>
 		<article className="and-more">
 			<p>
-				<h2><a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile">GitHub</a></h2>
-				<a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile"><img src="/static/img/github.svg" alt="GitHub"/></a>
+				<a href="https://github.com/OzzyCzech" target="_blank"><img src="/static/img/github.svg" alt="GitHub"/></a>
+			</p>
+			<p>
+				<a href="https://github.com/OzzyCzech" target="_blank" className="visit dark" title="Visit my GitHub profile">View GitHub Profile <RightArrow/></a>
 			</p>
 		</article>;
 

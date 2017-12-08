@@ -13,18 +13,29 @@ article {
     color: inherit;
   }
 
-  p.visit {
+  img.logo {
+    display: block;
+    margin: 20px 0;
+    max-width: 380px;
+  }
+
+  div:first-of-type p:last-child {
+    margin-top: 30px;
     text-align: center;
   }
+}
 
-  p.visit a {
-    display: inline-block;
-    border: 1px solid rgba(255, 255, 255, .5);
-    padding: 10px 10px 10px 20px;
-    text-decoration: none;
+a.visit {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: 3px;
+  padding: 10px 10px 10px 20px;
+  text-decoration: none;
+
+  &:hover {
+    background: rgba(255, 255, 255, .1);
   }
-
-  p.visit svg {
+  svg {
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -35,12 +46,15 @@ article {
     display: inline-block;
   }
 
-  img.logo {
-    display: block;
-    margin: 20px 0;
-    max-width: 380px;
+  &.dark {
+    border-color: #bbb;
+    &:hover {
+      background: #f5f5f5;
+    }
+    svg {
+      fill: #bbb;
+    }
   }
-
 }
 
 article.testomato {
@@ -59,17 +73,6 @@ article.sphido {
   text-align: center;
   img {
     padding: 20px;
-  }
-
-  p > a {
-    display: inline-block;
-    border: 1px solid #ddd;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin: 0 5px;
-  }
-  p > a:hover {
-    background-color: #f5f5f5;
   }
 }
 

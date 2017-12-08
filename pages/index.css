@@ -8,6 +8,55 @@
 
 main {
   text-align: center;
+  display: grid;
+  position: relative;
+}
+
+main article {
+  justify-self: center;
+  align-self: center;
+  text-align: left;
+  color: #fff;
+
+  p {
+    background: #0B93F6;
+    border-radius: 25px;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 100;
+    margin-bottom: 2px;
+
+    a {
+      color: #fff;
+    }
+
+    &:last-of-type {
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        bottom: -2px;
+        right: -7px;
+        height: 20px;
+        border-right: 20px solid #0B93F6;
+        border-bottom-left-radius: 16px 14px;
+        -webkit-transform: translate(0, -2px);
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        bottom: -2px;
+        right: -56px;
+        width: 26px;
+        height: 20px;
+        background: white;
+        border-bottom-left-radius: 10px;
+        -webkit-transform: translate(-30px, -2px);
+      }
+    }
+  }
 
 }
 
@@ -15,6 +64,10 @@ main {
   border-top: 1px solid #eee;
   text-align: center;
   padding: 20px;
+
+  a {
+    color: inherit;
+  }
   span {
     color: #d2322d;
   }
