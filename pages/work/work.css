@@ -47,7 +47,7 @@ a.visit {
   }
 
   &.dark {
-    border-color: #bbb;
+    border-color: #cacaca;
     &:hover {
       background: #f5f5f5;
     }

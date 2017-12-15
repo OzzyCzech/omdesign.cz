@@ -139,7 +139,7 @@ const AndMore = () =>
 				<a href="https://github.com/OzzyCzech" target="_blank"><img src="/static/img/github.svg" alt="GitHub"/></a>
 			</p>
 			<p>
-				<a href="https://github.com/OzzyCzech" target="_blank" className="visit dark" title="Visit my GitHub profile">View GitHub Profile <RightArrow/></a>
+				<a href="https://github.com/OzzyCzech" target="_blank" className="visit dark" title="Visit my GitHub profile">More on GitHub <RightArrow/></a>
 			</p>
 		</article>;
 
