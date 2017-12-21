@@ -3,6 +3,8 @@
 		{
 			"name": "omdesign.cz",
 			"script": "./node_modules/next/dist/bin/next-start",
+			"out_file": "/dev/null",
+			"error_file": "log/error.log",
 			"watch": true
 		}
 	]
