@@ -6,6 +6,9 @@
 			"script": "server.js",
 			"out_file": "/dev/null",
 			"error_file": "log/error.log",
+			"env": {
+				"NODE_ENV": "production"
+			},
 			"watch": true
 		}
 	]
