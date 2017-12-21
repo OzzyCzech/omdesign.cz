@@ -1,7 +1,6 @@
 {
 	"presets": ["next/babel", "env"],
 	"plugins": [
-		["module-resolver", {"root": ["."], "cwd": "babelrc"}],
 		["wrap-in-js", {"extensions": ["css$"]}]
 	]
 }
