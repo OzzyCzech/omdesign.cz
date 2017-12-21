@@ -15,7 +15,7 @@ const ContactInformation = () =>
 			<a href="mailto:roman@omdesign.cz" itemProp="email">roman@omdesign.cz</a>
 
 			<p>
-				<a href="tel:+420605783455" itemProp="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a> | <a href="http://m.me/roman.ozana" target="_blank">Messenger</a>
+				<a href="tel:+420605783455" itemProp="telephone">+420 605 783 455</a> | <a href="http://m.me/roman.ozana" target="_blank">Messenger</a>
 			</p>
 
 			<p>Bank: 1236400056/3030</p>
