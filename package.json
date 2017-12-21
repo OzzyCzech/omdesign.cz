@@ -2,8 +2,7 @@
   "scripts": {
     "build": "next build",
     "start": "pm2 start process.json",
-    "dev": "babel-node server.js",
-    "export": "next export -o public"
+    "dev": "babel-node server.js"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
