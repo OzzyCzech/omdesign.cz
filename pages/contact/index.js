@@ -24,8 +24,11 @@ const ContactInformation = () =>
 				IN: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504" title="Registration number" target="_blank">87098504</a>
 			</p>
 
-			<p>
-				<span itemProp="addressLocality">Prague</span>, <span itemProp="addressRegion">Czech Republic</span>
+			<p itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
+				<span itemProp="streetAddress">Pobočná 1199/36</span>
+				<span itemProp="addressLocality">Prague</span>,{' '}
+				<span itemProp="addressRegion">Czech Republic</span>
+				<span hidden itemProp="postalCode">14000</span>
 			</p>
 
 			<a href="/vcf" className="download">
