@@ -6,30 +6,26 @@ import contact from './contact.css'
 
 
 const ContactInformation = () =>
-		<section className="contact">
+		<section className="contact" itemType="http://schema.org/Person">
 
 			<a href="/me" title="Download image..." className="avatar"></a>
 
-			<h1>Ing. Roman Ožana</h1>
+			<h1 itemProp="name">Ing. Roman Ožana</h1>
 
-			<h1><a href="mailto:roman@omdesign.cz">roman@omdesign.cz</a></h1>
+			<h1><a href="mailto:roman@omdesign.cz" itemProp="email">roman@omdesign.cz</a></h1>
 
 			<p>
-				<a href="tel:+420605783455" itemprop="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a> | <a href="http://m.me/roman.ozana">Messenger</a>
+				<a href="tel:+420605783455" itemProp="telephone">+420&nbsp;605&nbsp;783&nbsp;455</a> | <a href="http://m.me/roman.ozana" target="_blank">Messenger</a>
+			</p>
+
+			<p>Bank: 1236400056/3030</p>
+
+			<p>
+				IN: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504" title="Registration number" target="_blank">87098504</a>
 			</p>
 
 			<p>
-				<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-					<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-					<path d="M0 0h24v24H0z" fill="none"/>
-				</svg>
-
-				Prague, Czech Republic
-			</p>
-
-			<p>
-				IČ: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504"
-				       title="Registration number" target="_blank">87098504</a>
+				<span itemProp="addressLocality">Prague</span>, <span itemProp="addressRegion">Czech Republic</span>
 			</p>
 
 			<a href="/vcf" className="download">
@@ -37,7 +33,7 @@ const ContactInformation = () =>
 					<path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
 					<path d="M0 0h24v24H0z" fill="none"/>
 				</svg>
-				Download as VCard
+				Download VCard
 			</a>
 
 		</section>;
