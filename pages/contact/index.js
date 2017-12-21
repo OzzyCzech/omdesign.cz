@@ -6,7 +6,7 @@ import contact from './contact.css'
 
 
 const ContactInformation = () =>
-		<section className="contact" itemType="http://schema.org/Person">
+		<section className="contact" itemScope itemType="http://schema.org/Person">
 
 			<a href="/me" title="Download image..." className="avatar"></a>
 
