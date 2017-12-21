@@ -25,7 +25,7 @@ const ContactInformation = () =>
 			</p>
 
 			<p itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
-				<span itemProp="streetAddress">Pobočná 1199/36</span>
+				<span hidden itemProp="streetAddress">Pobočná 1199/36</span>
 				<span itemProp="addressLocality">Prague</span>,{' '}
 				<span itemProp="addressRegion">Czech Republic</span>
 				<span hidden itemProp="postalCode">14000</span>
