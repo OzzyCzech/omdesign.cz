@@ -32,7 +32,7 @@ export default () => (
 					<p>
 						my name is Roman Ožana. I am a freelance webdesigner and developer with <strong>more than {experiences()} years of
 						experiences</strong>. I'm here to create websites and applications easy to use, intuitive and modern inside. I love tech
-						startups and community around. I enjoy working in small and effective team.
+						startups and community around. Enjoy working in small and effective team.
 					</p>
 
 					<p>Say hi on Twitter <a href="https://www.twitter.com/OzzyCzech">@OzzyCzech</a></p>
