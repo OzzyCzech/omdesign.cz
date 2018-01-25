@@ -58,7 +58,7 @@ const Skvely = () =>
 		<article>
 			<small>{duration(new Date(2009, 3, 1), new Date(2010, 7, 31))}</small>
 
-			<h3><a href="https://www.zebu.cz" title="Zebu Webdesign  is former Skvely.cz"target="_blank">Skvely.CZ s.r.o.</a> &ndash; PHP developer</h3>
+			<h3>Skvely.CZ s.r.o. &ndash; PHP developer</h3>
 
 			<h4>March 2009 &ndash; July 2010</h4>
 
