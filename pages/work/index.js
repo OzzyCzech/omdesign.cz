@@ -16,7 +16,7 @@ const Testomato = () =>
 				<p>
 					I'm working on <a href="https://www.testomato.com" target="_blank">Testomato</a> least four years as main
 					PHP/JS Developer. <a href="https://www.testomato.com" target="_blank">Testomato</a> starts as{' '}
-					<a href="https://www.testomato.com/about">one man project</a>, from green field, based on ideas of Michal Illich.
+					<a href="https://www.testomato.com/about">one man project</a>, from green field, based on ideas of <a href="https://michal.illich.cz/" target="_blank">Michal Illich</a>.
 				</p>
 
 				<p>
