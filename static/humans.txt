@@ -5,7 +5,7 @@
  Roman Ožana
  Position: developer
      Site: https://www.omdesign.cz
-    Email: ozana@omdesign.cz
+    Email: roman@omdesign.cz
   Twitter: @OzzyCzech
  Location: Prague, Czech Republic
 ------------------------------------------------------------------------------------------------------------------------
@@ -14,9 +14,9 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
-     Last up date: 2017
+     Last up date: 2018
         Standards: HTML5, CSS3
        Components: nodejs, webpack, express
- Desktop software: macOS, Atom
+ Desktop software: macOS, Visual Stuido Code
 
 ------------------------------------------------------------------------------------------------------------------------
