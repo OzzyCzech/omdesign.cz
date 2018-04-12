@@ -1,26 +1,26 @@
 import Layout from '../components/layout'
 import Nav from '../components/nav'
-import index from './index.css'
+import './index.css'
 
 export default () => (
-		<Layout css={index}>
+	<Layout>
 
-			<header>
-				<Nav/>
-			</header>
+		<header>
+			<Nav/>
+		</header>
 
-			<main>
-				<article>
-					<p>Hi</p>
-					<p>I'm Roman</p>
-					<p>A freelance frontend / backend / developer from Czech Republic</p>
-					<p>Say hello to <a href="mailto:roman@omdesign.cz">roman@omdesign.cz</a></p>
-				</article>
-			</main>
+		<main>
+			<article>
+				<p>Hi</p>
+				<p>I'm Roman</p>
+				<p>A freelance frontend / backend / developer from Czech Republic</p>
+				<p>Say hello to <a href="mailto:roman@omdesign.cz">roman@omdesign.cz</a></p>
+			</article>
+		</main>
 
-			<footer>
-				<p>
-					<a href="https://github.com/OzzyCzech/omdesign.cz" target="_blank">Made with
+		<footer>
+			<p>
+				<a href="https://github.com/OzzyCzech/omdesign.cz" target="_blank">Made with
 
 					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="13px" height="13px" viewBox="0 0 13 13" enableBackground="new 0 0 13 13">
 						<path fill="#D2322D"
@@ -30,9 +30,9 @@ export default () => (
 					</svg>
 
 					on &#63743;
-					</a>
-				</p>
-			</footer>
+				</a>
+			</p>
+		</footer>
 
-		</Layout>
+	</Layout>
 )
