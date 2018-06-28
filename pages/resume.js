@@ -1,10 +1,20 @@
+
+export default () =>
+		<div>
+				Resume
+		</div>
+
+
+/*
+
+
 import Layout from "../../components/layout"
 import Head from 'next/head'
-import Nav from "../../components/nav"
+import Nav from "../../components/Link"
 import resume from './resume.css'
 import SocialMedia from '../../components/social-media';
 
-import Experiences from './experiences';
+import Experiences from './resume.experiences';
 
 function experiences() {
 	let d = new Date();
@@ -149,3 +159,4 @@ export default () => (
 			</footer>
 		</Layout>
 )
+*/

@@ -1,9 +1,6 @@
-import Layout from '../../components/layout'
-import Nav from '../../components/nav'
-import SocialMedia from '../../components/social-media';
 import Head from 'next/head'
+import SocialMedia from '../components/social-media'
 import contact from './contact.css'
-
 
 const ContactInformation = () =>
 		<section className="contact" itemScope itemType="http://schema.org/Person">
@@ -47,19 +44,11 @@ const ContactFooter = () =>
 			<p>I'm <abbr title="sometimes :-)">available</abbr> for freelance work</p>
 		</section>;
 
-export default () => (
-		<Layout css={contact} title="OMG">
+export default () =>
+		<>
 			<Head>
 				<title>Contact | Roman Ožana</title>
 			</Head>
-			<header>
-				<Nav active="contact"/>
-			</header>
-			<main>
-				<ContactInformation/>
-			</main>
-			<footer>
-				<SocialMedia/>
-			</footer>
-		</Layout>
-)
+			<ContactInformation/>
+			<SocialMedia/>
+		</>

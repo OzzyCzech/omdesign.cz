@@ -1,6 +1,3 @@
-@import 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap-reboot.css';
-
-
 img, embed, object, audio, video {
   height: auto;
   max-width: 100%
@@ -54,7 +51,7 @@ header {
 .avatar {
   display: block;
   border-radius: 99999px;
-  background: url('../static/img/roman-ozana.jpg') 50% 45% no-repeat;
+  background: url('/static/img/roman-ozana.jpg') 50% 45% no-repeat;
   margin: 1em auto;
   z-index: 1;
   background-size: cover;

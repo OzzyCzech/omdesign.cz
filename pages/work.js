@@ -1,5 +1,3 @@
-import Layout from "../../components/layout"
-import Nav from "../../components/nav"
 import Head from 'next/head'
 import work from './work.css';
 
@@ -143,23 +141,15 @@ const AndMore = () =>
 			</p>
 		</article>;
 
-export default () => (
-		<Layout css={work}>
+export default () =>
+		<>
 			<Head>
-				<title>Work | Roman Ožana</title>
+				<title>OMG</title>
 			</Head>
 
-			<header>
-				<Nav active="work"/>
-			</header>
-
-			<main>
-				<Testomato/>
-				<Zdrojak/>
-				<Sphido/>
-				<Wordpress/>
-				<AndMore/>
-			</main>
-
-		</Layout>
-)
+			<Testomato/>
+			<Zdrojak/>
+			<Sphido/>
+			<Wordpress/>
+			<AndMore/>
+		</>

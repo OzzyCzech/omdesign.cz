@@ -1,6 +1,3 @@
-/*
-@import '../components/layout.css';
-
 .page {
   display: grid;
   height: 100vh;
@@ -65,5 +62,4 @@ main article {
     vertical-align: middle;
     margin: 0 3px;
   }
-
-}*/
+}
