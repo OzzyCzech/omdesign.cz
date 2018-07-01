@@ -1,0 +1,36 @@
+header {
+  nav {
+    display: grid;
+    border-bottom: 1px solid #ddd;
+
+    ul {
+      display: flex;
+      margin: auto;
+    }
+
+    ul li {
+      display: block;
+    }
+
+    ul {
+
+      li.active a {
+        border-bottom: 4px solid #ddd;
+        padding-bottom: 11px;
+      }
+
+      a, a:hover, a:active, a:focus {
+        padding: 15px 25px;
+        color: inherit;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+      }
+
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}

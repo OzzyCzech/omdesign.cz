@@ -1,65 +1,42 @@
-.page {
-  display: grid;
-  height: 100vh;
-  grid-template-rows: auto 1fr auto;
-}
+body.home {
+  min-height: 100vh;
 
-main {
-  text-align: center;
-  display: grid;
-  position: relative;
-}
+  main article {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
 
-main article {
-  justify-self: center;
-  align-self: center;
-  text-align: left;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
+    p {
+      font-size: 16px;
+      line-height: 1.4;
+      margin: 1px 0;
+      padding: 8px 17px 6px 13px;
+      color: white;
+      max-width: 380px;
+      align-self: flex-end;
 
-  p {
-    font-size: 16px;
-    line-height: 1.4;
-    margin: 1px 0;
-    padding: 8px 17px 6px 13px;
-    color: white;
-    max-width: 380px;
-    align-self: flex-end;
+      position: relative;
+      background-color: #1084ff;
+      border-radius: 18px;
 
-    position: relative;
-    background-color: #1084ff;
-    border-radius: 18px;
+      &:last-of-type:after {
+        content: "";
+        background: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='15.515px' height='17.5px' viewBox='32.485 17.5 15.515 17.5' enable-background='new 32.485 17.5 15.515 17.5'><path fill='#1084FF' d='M48,35c-7-4-6-8.75-6-17.5C28,17.5,29,35,48,35z'/></svg>") right bottom no-repeat;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -6px;
+        left: 0;
+        z-index: -1;
+      }
 
-    &:last-of-type:after {
-      content: "";
-      background: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='15.515px' height='17.5px' viewBox='32.485 17.5 15.515 17.5' enable-background='new 32.485 17.5 15.515 17.5'><path fill='#1084FF' d='M48,35c-7-4-6-8.75-6-17.5C28,17.5,29,35,48,35z'/></svg>") right bottom no-repeat;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      right: -6px;
-      left: 0;
-      z-index: -1;
+      a, a:hover, a:visited, a:focus {
+        color: inherit;
+      }
     }
 
-    a, a:hover, a:visited, a:focus {
-      color: inherit;
-    }
-  }
-
-}
-
-.page > footer {
-  border-top: 1px solid #eee;
-  text-align: center;
-  padding: 20px;
-
-  a {
-    color: inherit;
-  }
-
-  img, svg {
-    vertical-align: middle;
-    margin: 0 3px;
   }
 }

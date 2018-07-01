@@ -1,11 +1,10 @@
 import SocialMedia from './social-media';
+import './footer.css';
 
 export default ({active}) => {
 	switch (active) {
 		case '/contact':
-			return (<footer>
-				<SocialMedia/>
-			</footer>)
+			return (<footer><SocialMedia/></footer>)
 		case '/':
 			return (<footer>
 				<p>

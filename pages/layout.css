@@ -3,40 +3,6 @@ img, embed, object, audio, video {
   max-width: 100%
 }
 
-header {
-  nav {
-    display: flex;
-    border-bottom: 1px solid #ddd;
-
-    ul {
-      display: flex;
-      margin: auto;
-    }
-
-    ul li {
-      display: block;
-    }
-
-    ul {
-
-      li.active a {
-        border-bottom: 4px solid #ddd;
-        padding-bottom: 11px;
-      }
-
-      a {
-        padding: 15px 25px;
-        cursor: pointer;
-        display: block;
-      }
-
-    }
-  }
-
-  @media print {
-    display: none;
-  }
-}
 
 @media print {
   @page {
