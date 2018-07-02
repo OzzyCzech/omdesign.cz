@@ -5,7 +5,7 @@
 			"interpreter": "babel-node",
 			"script": "server.js",
 			"out_file": "/dev/null",
-			"error_file": "log/error.log",
+			"error_file": "log/pm2.error.log",
 			"env": {
 				"NODE_ENV": "production"
 			},
