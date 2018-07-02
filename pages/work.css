@@ -1,4 +1,5 @@
 body.work {
+
   article {
     display: grid;
     padding: 5rem;
@@ -34,6 +35,7 @@ body.work {
     &:hover {
       background: rgba(255, 255, 255, .1);
     }
+
     svg {
       margin: 0;
       padding: 0;

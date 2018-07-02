@@ -8,16 +8,10 @@ body.resume {
     h1 {
       text-align: center;
       margin: 60px auto;
-      @media print {
-        margin: 0 0 20px 0;
-      }
     }
 
     h2 {
       border-bottom: 1px solid #ddd;
-      @media print {
-        page-break-after: avoid;
-      }
     }
 
     h3, h4 {
@@ -26,17 +20,6 @@ body.resume {
 
     h4 {
       font-style: italic;
-    }
-
-    @media print {
-      article, p {
-        page-break-inside: avoid;
-      }
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
     }
   }
 
@@ -103,5 +86,11 @@ body.resume {
     *:last-of-type {
       margin-bottom: 0;
     }
+  }
+}
+
+@media print {
+  section.skills {
+    margin-top: 450px;
   }
 }

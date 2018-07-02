@@ -1,4 +1,3 @@
-import './layout.css';
 import './index.css';
 
 export default ({active}) =>
