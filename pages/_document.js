@@ -2,9 +2,6 @@ import Document, {Head, Main, NextScript} from 'next/document'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
-import './layout.css';
-import './print.css'
-
 export default class MyDocument extends Document {
 	render() {
 		const pathname = this.props.__NEXT_DATA__.pathname; // get active pathname...
