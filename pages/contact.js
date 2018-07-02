@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import SocialMedia from '../components/social-media'
 import contact from './contact.css'
 
 const ContactInformation = () =>
@@ -50,5 +49,4 @@ export default () =>
 				<title>Contact | Roman Ožana</title>
 			</Head>
 			<ContactInformation/>
-			<SocialMedia/>
 		</>

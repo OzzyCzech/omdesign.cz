@@ -3,7 +3,6 @@ import './index.css';
 
 export default ({active}) =>
 		<>
-
 			<article>
 				<p>Hi</p>
 				<p>I'm Roman</p>

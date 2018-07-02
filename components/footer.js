@@ -3,6 +3,7 @@ import './footer.css';
 
 export default ({active}) => {
 	switch (active) {
+		case '/resume':
 		case '/contact':
 			return (<footer><SocialMedia/></footer>)
 		case '/':
@@ -19,7 +20,7 @@ export default ({active}) => {
 				</p>
 			</footer>)
 		default:
-			return (<footer></footer>)
+			return (<></>)
 
 	}
 }

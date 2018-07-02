@@ -3,6 +3,15 @@ img, embed, object, audio, video {
   max-width: 100%
 }
 
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  > main {
+    display: grid;
+  }
+}
+
 
 @media print {
   @page {
@@ -33,34 +42,4 @@ img, embed, object, audio, video {
   }
 }
 
-section.social {
-  padding: 50px 20px;
-  border-top: 1px solid #e5e5e5;
-  text-align: center;
-
-  span {
-    margin: 0 5px;
-    @media print {
-      display: none;
-    }
-  }
-
-  @media print {
-    text-align: left;
-    padding: 15px;
-
-    a {
-      display: block;
-      color: inherit;
-      font-weight: bold;
-      text-decoration: none;
-      width: 100%;
-    }
-
-    a[href]:after {
-      content: ":\a0" attr(href);
-      font-weight: normal;
-    }
-  }
-}
 

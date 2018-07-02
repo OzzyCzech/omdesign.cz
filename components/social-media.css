@@ -1,0 +1,29 @@
+section.social-media {
+  padding: 50px 20px;
+  text-align: center;
+
+  span {
+    margin: 0 5px;
+    @media print {
+      display: none;
+    }
+  }
+
+  @media print {
+    text-align: left;
+    padding: 15px;
+
+    a {
+      display: block;
+      color: inherit;
+      font-weight: bold;
+      text-decoration: none;
+      width: 100%;
+    }
+
+    a[href]:after {
+      content: ":\a0" attr(href);
+      font-weight: normal;
+    }
+  }
+}

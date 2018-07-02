@@ -6,12 +6,13 @@ import './index.css'
 
 export default class MyDocument extends Document {
 	render() {
-		const active = this.props.__NEXT_DATA__.pathname; // get active pathname...
+		const pathname = this.props.__NEXT_DATA__.pathname; // get active pathname...
 		const page = this.props.__NEXT_DATA__.pathname.replace(/[^\w\-]+/g, '');
 
 		return (
 				<html>
 				<Head>
+					<title>Roman Ožana</title>
 					<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 					<meta name="robots" content="all"/>
 					<meta name="author" content="All: Roman Ozana; e-mail: ozana@omdesign.cz"/>
@@ -24,11 +25,11 @@ export default class MyDocument extends Document {
 
 				<body className={page ? page : 'home'}>
 
-				<Header active={active}/>
+				<Header active={pathname}/>
 
 				<main id="__next" dangerouslySetInnerHTML={{__html: this.props.html}}></main>
 
-				<Footer active={active}/>
+				<Footer active={pathname}/>
 
 				<div id="__next-error" dangerouslySetInnerHTML={{__html: this.props.errorHtml}}></div>
 

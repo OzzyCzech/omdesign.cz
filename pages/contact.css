@@ -1,43 +1,34 @@
+body.contact {
+  section.contact {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
 
-.page {
-  display: grid;
-  height: 100vh;
-  grid-template-rows: auto 1fr auto;
-}
-
-main {
-  display: grid;
-}
-
-section.contact {
-  justify-self: center;
-  align-self: center;
-  text-align: center;
-
-  a[href^="mailto:"] {
-    font-size: 1.5em;
-    display: inline-block;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-
-  svg {
-    vertical-align: top;
-    display: inline-block;
-  }
-
-  a.download {
-    padding: 20px 25px;
-    border-radius: 3px;
-    display: inline-block;
-    background: #0056b3;
-    text-decoration: none;
-    color: #fff;
+    a[href^="mailto:"] {
+      font-size: 1.5em;
+      display: inline-block;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
 
     svg {
-      vertical-align: middle;
+      vertical-align: top;
       display: inline-block;
-      margin-right: 3px;
+    }
+
+    a.download {
+      padding: 20px 25px;
+      border-radius: 3px;
+      display: inline-block;
+      background: #0056b3;
+      text-decoration: none;
+      color: #fff;
+
+      svg {
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 3px;
+      }
     }
   }
 }

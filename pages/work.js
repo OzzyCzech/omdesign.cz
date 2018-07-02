@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import work from './work.css';
+import './work.css';
 
 const RightArrow = () =>
 		<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -144,9 +144,8 @@ const AndMore = () =>
 export default () =>
 		<>
 			<Head>
-				<title>OMG</title>
+				<title>Work | Roman Ožana</title>
 			</Head>
-
 			<Testomato/>
 			<Zdrojak/>
 			<Sphido/>

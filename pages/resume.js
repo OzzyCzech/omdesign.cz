@@ -1,18 +1,5 @@
-
-export default () =>
-		<div>
-				Resume
-		</div>
-
-
-/*
-
-
-import Layout from "../../components/layout"
 import Head from 'next/head'
-import Nav from "../../components/Link"
-import resume from './resume.css'
-import SocialMedia from '../../components/social-media';
+import './resume.css'
 
 import Experiences from './resume.experiences';
 
@@ -22,16 +9,10 @@ function experiences() {
 }
 
 export default () => (
-		<Layout css={resume}>
-			<Head>
-				<title>Resume | Ing. Roman Ožana</title>
-			</Head>
-
-			<header>
-				<Nav active="resume"/>
-			</header>
-
-			<main>
+			<>
+				<Head>
+					<title>Resume | Ing. Roman Ožana</title>
+				</Head>
 
 				<h1>Ing. Roman Ožana / Resume</h1>
 
@@ -76,7 +57,7 @@ export default () => (
 					</article>
 
 					<article>
-						<h3>Experimnce with</h3>
+						<h3>Experience with</h3>
 						<ul>
 							<li>React, NextJS</li>
 							<li>Gulp &amp; Grunt</li>
@@ -101,7 +82,7 @@ export default () => (
 							<li>Version Control (GIT)</li>
 							<li>Webpack, Makefile</li>
 							<li>Travis &amp; GitLab CI</li>
-							<li>Linux, MacOS</li>
+							<li>MacOS, Linux</li>
 						</ul>
 					</article>
 				</section>
@@ -152,11 +133,5 @@ export default () => (
 						Download as PDF
 					</a>
 				</section>
-			</main>
-
-			<footer>
-				<SocialMedia/>
-			</footer>
-		</Layout>
+			</>
 )
-*/
