@@ -1,8 +1,10 @@
 body.contact {
+
   section.contact {
     justify-self: center;
     align-self: center;
     text-align: center;
+    margin: 20px 0;
 
     a[href^="mailto:"] {
       font-size: 1.5em;

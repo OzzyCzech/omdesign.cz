@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import './resume.css'
 
 import Experiences from './resume.experiences';
 

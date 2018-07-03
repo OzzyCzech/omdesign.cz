@@ -1,3 +1,7 @@
+build:
+	yarn build
+	yarn start
+
 screenshots:
 	node screenshot.js https://www.testomato.com ./static/img/work/testomato.png
 	node screenshot.js https://www.zdrojak.cz ./static/img/work/zdrojak.png
@@ -11,4 +15,4 @@ clean:
 	rm -rf public/*
 	rm -rf .next
 
-.PHONY: screenshots resume clean
+.PHONY: build screenshots resume clean

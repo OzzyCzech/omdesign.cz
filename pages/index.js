@@ -1,6 +1,5 @@
-import './index.css';
 
-export default ({active}) =>
+export default () =>
 		<>
 			<article>
 				<p>Hi</p>

@@ -1,5 +1,4 @@
 import SocialMedia from './social-media';
-import './footer.css';
 
 export default ({active}) => {
 	switch (active) {

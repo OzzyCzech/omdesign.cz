@@ -1,5 +1,3 @@
-import './social-media.css'
-
 export default () => (
 		<section className="social-media">
 			<a href="https://github.com/OzzyCzech/" target="_blank">GitHub</a><span>&bull;</span>

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import contact from './contact.css'
 
 const ContactInformation = () =>
 		<section className="contact" itemScope itemType="http://schema.org/Person">

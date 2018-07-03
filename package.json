@@ -2,8 +2,8 @@
 	"scripts": {
 		"dev": "babel-node server.js",
 		"build": "next build",
-		"start": "next start",
-		"start2": "pm2 start process.json",
+		"next-start": "next start",
+		"start": "pm2 start process.json",
 		"export": "next export -o public"
 	},
 	"dependencies": {
