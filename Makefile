@@ -1,8 +1,11 @@
 build:
+	PATH=$(npm bin):$PATH
+
 	yarn install
-	yarn stop
-	# yarn build # build me locally... RAM
-	yarn start
+	yarn build
+
+	pm2 stop process.json
+	pm2 start process.json
 
 screenshots:
 	node screenshot.js https://www.testomato.com ./static/img/work/testomato.png
