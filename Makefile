@@ -1,5 +1,6 @@
 build:
 	yarn install
+	yarn stop
 	yarn build
 	yarn start
 
