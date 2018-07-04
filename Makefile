@@ -1,7 +1,7 @@
 build:
 	yarn install
 	yarn stop
-	yarn build
+	# yarn build # build me locally... RAM
 	yarn start
 
 screenshots:
