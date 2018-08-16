@@ -3,7 +3,7 @@
 		"dev": "babel-node server.js",
 		"build": "next build",
 		"next-start": "next start",
-		"stop" : "pm2 stop process.json",
+		"stop": "pm2 stop process.json",
 		"start": "pm2 start process.json",
 		"export": "next export -o public"
 	},

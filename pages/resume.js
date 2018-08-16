@@ -44,14 +44,14 @@ export default () => (
 						<ul>
 							<li>PHP (up to 7.x)</li>
 							<li>OOP, DI, IOC, design patterns</li>
-							<li>SQL language</li>
+							<li>SQL language (MariaDB, MySQL)</li>
 							<li>MySQL, Redis, MongoDB, Memcached</li>
-							<li>Javascript ES5 + ES6</li>
+							<li>Javascript</li>
 							<li>Angular, jQuery</li>
 							<li>HTML5, CSS3 (incl. LESS, Sass, cssnext, PostCSS)</li>
-							<li>Webpack &amp; Makefile</li>
+							<li>Webpack 4 &amp; Makefile</li>
 							<li>Responsive Layout and Design</li>
-							<li>Basics of Photoshop CS6 and Adobe Illustrator</li>
+							<li>Basics of Photoshop and Adobe Illustrator</li>
 						</ul>
 					</article>
 
@@ -59,9 +59,9 @@ export default () => (
 						<h3>Experience with</h3>
 						<ul>
 							<li>React, NextJS</li>
+							<li>Node.js</li>
 							<li>Gulp &amp; Grunt</li>
 							<li>Couchbase</li>
-							<li>NodeJS</li>
 						</ul>
 					</article>
 
@@ -78,10 +78,10 @@ export default () => (
 						<h3>DevStack</h3>
 						<ul>
 							<li>Docker</li>
-							<li>Version Control (GIT)</li>
+							<li>Git version control</li>
 							<li>Webpack, Makefile</li>
 							<li>Travis &amp; GitLab CI</li>
-							<li>MacOS, Linux</li>
+							<li>MacOS and Linux</li>
 						</ul>
 					</article>
 				</section>

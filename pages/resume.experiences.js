@@ -44,7 +44,7 @@ const Intergraph = () =>
 		<article>
 			<small>{duration(new Date(2010, 7, 1), new Date(2011, 3, 31))}</small>
 
-			<h3><a href="http://www.intergraph.com/global/cz/" target="_blank">Intergraph s.r.o.</a> &ndash; Application Engineer</h3>
+			<h3>Intergraph s.r.o. &ndash; Application Engineer</h3>
 
 			<h4>July 2010 &ndash; April 2011</h4>
 
