@@ -1,8 +1,8 @@
-build:
+start:
 	PATH=$(npm bin):$PATH
 
 	yarn install
-	yarn build
+	next build
 
 	pm2 stop process.json
 	pm2 start process.json
@@ -20,4 +20,4 @@ clean:
 	rm -rf public/*
 	rm -rf .next
 
-.PHONY: build screenshots resume clean
+.PHONY: start screenshots resume clean
