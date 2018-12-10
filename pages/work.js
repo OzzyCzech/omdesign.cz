@@ -1,3 +1,5 @@
+import "./_document.css";
+import "./work.css";
 import Head from 'next/head'
 
 const RightArrow = () =>

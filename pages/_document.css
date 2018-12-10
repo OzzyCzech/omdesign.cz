@@ -1,0 +1,176 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  > main {
+    display: grid;
+  }
+}
+
+img, embed, object, audio, video {
+  height: auto;
+  max-width: 100%;
+}
+
+.avatar {
+  display: block;
+  border-radius: 99999px;
+  background: url('/static/img/roman-ozana.jpg') 50% 45% no-repeat;
+  margin: 1em auto;
+  z-index: 1;
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  filter: grayscale(100%);
+
+  width: 200px;
+  height: 200px;
+
+  &:hover {
+    filter: none;
+  }
+}
+
+header {
+  nav {
+    display: grid;
+    border-bottom: 1px solid #ddd;
+
+    ul {
+      display: flex;
+      margin: auto;
+    }
+
+    ul li {
+      display: block;
+    }
+
+    ul {
+
+      li.active a {
+        border-bottom: 4px solid #ddd;
+        padding-bottom: 11px;
+      }
+
+      a, a:hover, a:active, a:focus {
+        padding: 15px 25px;
+        color: inherit;
+        cursor: pointer;
+        display: block;
+        text-decoration: none;
+      }
+
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 20px;
+
+  > * {
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  img, svg {
+    vertical-align: middle;
+    margin: 0 3px;
+  }
+}
+
+
+section.social-media {
+  padding: 50px 20px;
+  text-align: center;
+
+  span {
+    margin: 0 5px;
+    @media print {
+      display: none;
+    }
+  }
+
+  @media print {
+    text-align: left;
+    padding: 15px;
+
+    a {
+      display: block;
+      color: inherit;
+      font-weight: bold;
+      text-decoration: none;
+      width: 100%;
+    }
+
+    a[href]:after {
+      content: ":\a0" attr(href);
+      font-weight: normal;
+    }
+  }
+}
+
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  body, html {
+    display: block;
+    min-height: auto;
+    grid-template-rows: auto;
+    min-width: 992px !important;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre, blockquote {
+    border: 1px solid #adb5bd;
+    page-break-inside: avoid;
+  }
+
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  @page {
+    size: a4;
+  }
+
+  .no-print {
+    display: none !important
+  }
+
+}

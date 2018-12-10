@@ -1,4 +1,5 @@
-import '../css/_css.js'
+import './_document.css'
+import "./index.css";
 
 export default () =>
 		<>

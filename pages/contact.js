@@ -1,3 +1,5 @@
+import './_document.css'
+import './contact.css'
 import Head from 'next/head'
 
 const ContactInformation = () =>

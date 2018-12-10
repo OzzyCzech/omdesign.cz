@@ -1,11 +1,6 @@
 start:
 	PATH=$(npm bin):$PATH
-
-	yarn install
-	next build
-
-	pm2 stop process.json
-	pm2 start process.json
+ 	yarn build && yarn \export -o /public
 
 screenshots:
 	node screenshot.js https://www.testomato.com ./static/img/work/testomato.png
