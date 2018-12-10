@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "nextjs",
+  "name": "omdesign",
   "builds": [
     {
       "src": "next.config.js",
