@@ -1,7 +1,13 @@
 {
 	"version": 2,
 	"name": "omdesign",
-	"alias": "omdesign.cz",
+	"env": {
+		"NODE_ENV": "production"
+	},
+	"alias": [
+		"omdesign.now.sh",
+		"omdesign.cz"
+	],
 	"builds": [
 		{
 			"src": "next.config.js",
