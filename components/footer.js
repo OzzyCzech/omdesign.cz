@@ -4,7 +4,7 @@ export default ({active}) => {
 	switch (active) {
 		case '/resume':
 		case '/contact':
-			return (<footer><SocialMedia/></footer>)
+			return (<footer><SocialMedia/></footer>);
 		case '/':
 			return (<footer>
 				<p>
@@ -17,7 +17,7 @@ export default ({active}) => {
 					</svg> on &#63743;
 					</a>
 				</p>
-			</footer>)
+			</footer>);
 		default:
 			return (<></>)
 

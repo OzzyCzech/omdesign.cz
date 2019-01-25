@@ -106,29 +106,29 @@ const Wordpress = () =>
 			<div>
 				<h3>Wordpress Plugins</h3>
 				<ul>
-					<li><a href="https://github.com/OzzyCzech/omSuggestContent">omSuggestContent</a> - A plugin for suggest post content from registered users.</li>
-					<li><a href="https://github.com/OzzyCzech/omSocialButtons">omSocialButtons</a> - Simple plugin for Twitter, Facebook, Google Plus and Flatter social buttons in Wordpress posts</li>
-					<li><a href="https://github.com/OzzyCzech/omShares">omShares</a> - Automatically update number of shares via different social networks</li>
-					<li><a href="https://github.com/OzzyCzech/omLightbox">omLightBox</a> - Simple Lightbox for Wordpress</li>
-					<li><a href="https://github.com/OzzyCzech/omPreformat">omPreformat</a> - Plugin for adding preformatted text to post easily</li>
-					<li><a href="https://github.com/OzzyCzech/omSocialLogin">omSocialLogin</a> - Login via Facebook, Twitter of G+</li>
-					<li><a href="https://github.com/OzzyCzech/omEmoji">omEmoji</a> - Add bunch of emoticons to posts</li>
-					<li><a href="https://github.com/OzzyCzech/omRememberMe">omRememberMe</a> - Always remember Wordpress user for ever after successful login</li>
-					<li><a href="https://github.com/OzzyCzech/omLinks">omLinks</a> - Wordpress plugin in post URL replacement</li>
-					<li><a href="https://github.com/OzzyCzech/omUserPhotos">omUserPhotos</a> - Add custom user photo</li>
-					<li><a href="https://github.com/OzzyCzech/omTaxonomyImages">omTaxonomyImages</a> - Add images for taxonomies</li>
-					<li><a href="https://github.com/OzzyCzech/">and more&hellip;</a></li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omSuggestContent">omSuggestContent</a> - A plugin for suggest post content from registered users.</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omSocialButtons">omSocialButtons</a> - Simple plugin for Twitter, Facebook, Google Plus and Flatter social buttons in Wordpress posts</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omShares">omShares</a> - Automatically update number of shares via different social networks</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omLightbox">omLightBox</a> - Simple Lightbox for Wordpress</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omPreformat">omPreformat</a> - Plugin for adding preformatted text to post easily</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omSocialLogin">omSocialLogin</a> - Login via Facebook, Twitter of G+</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omEmoji">omEmoji</a> - Add bunch of emoticons to posts</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omRememberMe">omRememberMe</a> - Always remember Wordpress user for ever after successful login</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omLinks">omLinks</a> - Wordpress plugin in post URL replacement</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omUserPhotos">omUserPhotos</a> - Add custom user photo</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/omTaxonomyImages">omTaxonomyImages</a> - Add images for taxonomies</li>
+					<li><a target="_blank" href="https://github.com/OzzyCzech/">and more&hellip;</a></li>
 				</ul>
 			</div>
 			<div>
 				<h3>Websites</h3>
 				<ul>
-					<li><a href="https://OzzyCzech.cz/" target="_blank" rel="nofollow">OzzyCzech.cz</a></li>
-					<li><a href="https://lagunanj.cz/" target="_blank" rel="nofollow">lagunanj.cz</a></li>
-					<li><a href="http://www.portalbozp.com" target="_blank" rel="nofollow">portalbozp.cz</a></li>
-					<li><a href="http://www.tempo-reality.cz/" target="_blank" rel="nofollow">tempo-reality.cz</a></li>
-					<li><a href="http://www.zuboz.com" target="_blank" rel="nofollow">zuboz.cz</a></li>
-					<li><a href="http://www.sazenice-stromky.cz" target="_blank" rel="nofollow">sazenice-stromky.cz</a></li>
+					<li><a target="_blank" rel="nofollow" href="https://OzzyCzech.cz/">OzzyCzech.cz</a></li>
+					<li><a target="_blank" rel="nofollow" href="https://lagunanj.cz/">lagunanj.cz</a></li>
+					<li><a target="_blank" rel="nofollow" href="http://www.portalbozp.com">portalbozp.cz</a></li>
+					<li><a target="_blank" rel="nofollow" href="http://www.tempo-reality.cz/">tempo-reality.cz</a></li>
+					<li><a target="_blank" rel="nofollow" href="http://www.zuboz.com">zuboz.cz</a></li>
+					<li><a target="_blank" rel="nofollow" href="http://www.sazenice-stromky.cz">sazenice-stromky.cz</a></li>
 					<li>and more&hellip;</li>
 				</ul>
 			</div>
@@ -147,7 +147,7 @@ const AndMore = () =>
 export default () =>
 		<>
 			<Head>
-				<title>Work | Roman Ožana</title>
+				<title>Work | Ing. Roman Ožana</title>
 			</Head>
 			<Testomato/>
 			<Zdrojak/>

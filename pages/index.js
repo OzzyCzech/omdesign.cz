@@ -1,8 +1,13 @@
+import Head from 'next/head'
 import './_document.css'
 import "./index.css";
 
+
 export default () =>
 		<>
+			<Head>
+				<title>Hi I'm Roman</title>
+			</Head>
 			<article>
 				<p>Hi</p>
 				<p>I'm Roman</p>

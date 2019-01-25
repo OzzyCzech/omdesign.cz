@@ -47,7 +47,7 @@ const ContactFooter = () =>
 export default () =>
 		<>
 			<Head>
-				<title>Contact | Roman Ožana</title>
+				<title>Contact | Ing. Roman Ožana</title>
 			</Head>
 			<ContactInformation/>
 		</>
