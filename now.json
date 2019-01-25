@@ -1,10 +1,11 @@
 {
-  "version": 2,
-  "name": "omdesign",
-  "builds": [
-    {
-      "src": "next.config.js",
-      "use": "@now/next"
-    }
-  ]
+	"version": 2,
+	"name": "omdesign",
+	"alias": "omdesign",
+	"builds": [
+		{
+			"src": "next.config.js",
+			"use": "@now/next"
+		}
+	]
 }
