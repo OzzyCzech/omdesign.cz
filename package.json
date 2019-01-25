@@ -7,17 +7,17 @@
 	},
 	"dependencies": {
 		"@zeit/next-css": "^1.0.1",
-		"moment": "^2.22.2",
+		"moment": "^2.24.0",
 		"next": "^7.0.2",
-		"postcss": "^7.0.6",
+		"postcss": "^7.0.14",
 		"postcss-clean": "^1.1.0",
 		"postcss-easy-import": "^3.0.0",
-		"postcss-nested": "^4.1.0",
-		"postcss-preset-env": "^6.4.0",
-		"react": "^16.6.3",
-		"react-dom": "^16.6.3"
+		"postcss-nested": "^4.1.1",
+		"postcss-preset-env": "^6.5.0",
+		"react": "^16.7.0",
+		"react-dom": "^16.7.0"
 	},
-	"devDependencies": {
+	"xdevDependencies": {
 		"puppeteer": "^1.11.0"
 	}
 }
