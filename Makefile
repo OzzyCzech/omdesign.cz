@@ -1,7 +1,3 @@
-start:
-	PATH=$(npm bin):$PATH
-	yarn build && yarn \export -o /public
-
 screenshots:
 	node screenshot.js https://www.testomato.com ./static/img/work/testomato.png
 	node screenshot.js https://www.zdrojak.cz ./static/img/work/zdrojak.png
