@@ -91,7 +91,7 @@ const Sphido = () =>
 			<a href="http://www.sphido.org" target="_sphido">
 				<img src="/static/img/sphido.svg" alt="Sphido Logo"/>
 			</a>
-			<p>A rocket fast, lightweight, flat file CMS for PHP</p>
+			<p>A rocket 🚀 fast, lightweight, static site generator</p>
 			<p>
 				<a href="https://sphido.org" target="_blank" className="visit dark">
 					Sphido.org
@@ -123,10 +123,12 @@ const Wordpress = () =>
 			<div>
 				<h3>Websites</h3>
 				<ul>
-					<li><a href="https://blog.testomato.com/" target="_blank" rel="nofollow">blog.testomato.com</a></li>
+					<li><a href="https://OzzyCzech.cz/" target="_blank" rel="nofollow">OzzyCzech.cz</a></li>
+					<li><a href="https://lagunanj.cz/" target="_blank" rel="nofollow">lagunanj.cz</a></li>
 					<li><a href="http://www.portalbozp.com" target="_blank" rel="nofollow">portalbozp.cz</a></li>
-					<li><a href="http://www.zuboz.com" target="_blank" rel="nofollow">zuboz.cz</a></li>
 					<li><a href="http://www.tempo-reality.cz/" target="_blank" rel="nofollow">tempo-reality.cz</a></li>
+					<li><a href="http://www.zuboz.com" target="_blank" rel="nofollow">zuboz.cz</a></li>
+					<li><a href="http://www.sazenice-stromky.cz" target="_blank" rel="nofollow">sazenice-stromky.cz</a></li>
 					<li>and more&hellip;</li>
 				</ul>
 			</div>

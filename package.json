@@ -1,23 +1,23 @@
 {
-  "scripts": {
-    "dev": "next",
-    "start": "next start",
-    "build": "next build",
-    "export": "next export"
-  },
-  "dependencies": {
-    "moment": "^2.22.2",
-    "next": "^7.0.2",
-    "postcss": "^7.0.6",
-    "postcss-clean": "^1.1.0",
-    "postcss-easy-import": "^3.0.0",
-    "postcss-nested": "^4.1.0",
-    "postcss-preset-env": "^6.4.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "@zeit/next-css": "^1.0.1"
-  },
-  "xdevDependencies": {
-    "puppeteer": "^1.11.0"
-  }
+	"scripts": {
+		"dev": "next",
+		"start": "next start",
+		"build": "next build",
+		"export": "next export"
+	},
+	"dependencies": {
+		"@zeit/next-css": "^1.0.1",
+		"moment": "^2.22.2",
+		"next": "^7.0.2",
+		"postcss": "^7.0.6",
+		"postcss-clean": "^1.1.0",
+		"postcss-easy-import": "^3.0.0",
+		"postcss-nested": "^4.1.0",
+		"postcss-preset-env": "^6.4.0",
+		"react": "^16.6.3",
+		"react-dom": "^16.6.3"
+	},
+	"devDependencies": {
+		"puppeteer": "^1.11.0"
+	}
 }
