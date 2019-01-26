@@ -1,96 +1,97 @@
 body.resume {
 
-  main {
-    max-width: 1050px;
-    margin: 0 auto;
-    padding: 15px;
+	main {
+		max-width: 1050px;
+		margin: 0 auto;
+		padding: 15px;
 
-    h1 {
-      text-align: center;
-      margin: 60px auto;
-    }
+		h1 {
+			text-align: center;
+			margin: 60px auto;
+		}
 
-    h2 {
-      border-bottom: 1px solid #ddd;
-    }
+		h2 {
+			border-bottom: 1px solid #ddd;
+		}
 
-    h3, h4 {
-      font-weight: normal;
-    }
+		h3, h4 {
+			font-weight: normal;
+		}
 
-    h4 {
-      font-style: italic;
-    }
-  }
+		h4 {
+			font-style: italic;
+		}
+	}
 
-  section.skills {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-auto-columns: minmax(100px, auto);
+	section.skills {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-auto-columns: minmax(100px, auto);
 
-    h2 {
-      grid-column: 1 / 3;
-      grid-row: 1;
-    }
-  }
+		h2 {
+			grid-column: 1 / 3;
+			grid-row: 1;
+		}
+	}
 
-  section.intro > img {
-    width: 220px;
-    border: 1px solid #ddd;
-    padding: 7px;
-    float: right;
-    background: #fff;
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
+	section.intro > img {
+		width: 220px;
+		border: 1px solid #ddd;
+		padding: 7px;
+		float: right;
+		background: #fff;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
 
-  section.intro {
-    display: none;
-    @media print {
-      display: block;
-    }
-  }
+	section.intro {
+		display: none;
+		@media print {
+			display: block;
+		}
+	}
 
-  section.download {
-    margin: 40px 0;
-    text-align: center;
+	section.download {
+		margin: 40px 0;
+		text-align: center;
 
-    a {
-      padding: 20px 25px;
-      border-radius: 3px;
-      display: inline-block;
-      background: #0056b3;
-      text-decoration: none;
-      color: #fff;
-    }
+		a {
+			padding: 20px 25px;
+			border-radius: 3px;
+			display: inline-block;
+			background: #0056b3;
+			text-decoration: none;
+			color: #fff;
+		}
 
-    svg {
-      vertical-align: middle;
-      display: inline-block;
-      margin-right: 3px;
-    }
+		svg {
+			vertical-align: middle;
+			display: inline-block;
+			margin-right: 3px;
+		}
 
-    @media print {
-      display: none;
-    }
-  }
+		@media print {
+			display: none;
+		}
+	}
 
-  article {
-    padding: 10px 10px;
+	article {
+		padding: 10px 10px;
 
-    small {
-      color: #a9a9a9;
-      float: right;
-      font-weight: 200;
-    }
-    *:last-of-type {
-      margin-bottom: 0;
-    }
-  }
+		small {
+			color: #a9a9a9;
+			float: right;
+			font-weight: 200;
+		}
+
+		*:last-of-type {
+			margin-bottom: 0;
+		}
+	}
 }
 
 @media print {
-  section.skills {
-    margin-top: 450px;
-  }
+	section.skills {
+		margin-top: 450px;
+	}
 }
