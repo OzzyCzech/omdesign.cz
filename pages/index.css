@@ -13,18 +13,18 @@ body.home {
       font-size: 16px;
       line-height: 1.4;
       margin: 1px 0;
-      padding: 8px 17px 6px 13px;
+      padding: 6px 12px;
       color: white;
       max-width: 380px;
       align-self: flex-end;
 
       position: relative;
-      background-color: #1084ff;
-      border-radius: 18px;
+      background-color: #1B83F6;
+      border-radius: 1.3em;
 
       &:last-of-type:after {
         content: "";
-        background: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='15.515px' height='17.5px' viewBox='32.485 17.5 15.515 17.5' enable-background='new 32.485 17.5 15.515 17.5'><path fill='#1084FF' d='M48,35c-7-4-6-8.75-6-17.5C28,17.5,29,35,48,35z'/></svg>") right bottom no-repeat;
+        background: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='15.515px' height='17.5px' viewBox='32.485 17.5 15.515 17.5' enable-background='new 32.485 17.5 15.515 17.5'><path fill='#1B83F6' d='M48,35c-7-4-6-8.75-6-17.5C28,17.5,29,35,48,35z'/></svg>") right bottom no-repeat;
         position: absolute;
         top: 0;
         bottom: 0;
