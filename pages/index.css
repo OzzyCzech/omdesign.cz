@@ -2,25 +2,24 @@ body.home {
 	min-height: 100vh;
 
 	main article {
-		justify-self: center;
-		align-self: center;
-		text-align: left;
-		color: #fff;
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		align-content: center;
+		justify-content: center;
+		grid-gap: 2px;
+		padding: 15px;
 
 		p {
-			font-size: 16px;
-			line-height: 1.4;
-			margin: 1px 0;
-			padding: 6px 12px;
-			color: white;
-			max-width: 380px;
-			align-self: flex-end;
-
-			position: relative;
 			background-color: #1B83F6;
+			color: white;
+			padding: 6px 12px;
+			margin: 0;
 			border-radius: 1.3em;
+			justify-self: end;
+			max-width: 380px;
+
+			&:last-of-type {
+				position: relative;
+			}
 
 			&:last-of-type:after {
 				content: "";
@@ -32,11 +31,10 @@ body.home {
 				left: 0;
 				z-index: -1;
 			}
-
-			a, a:hover, a:visited, a:focus {
-				color: inherit;
-			}
 		}
 
+		a, a:hover, a:visited, a:focus {
+			color: inherit;
+		}
 	}
 }
