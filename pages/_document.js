@@ -18,12 +18,11 @@ export default class MyDocument extends Document {
 			<html>
 			<Head>
 				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-				<meta name="robots" content="all"/>
-				<meta name="author" content="All: Roman Ozana; e-mail: roman@omdesign.cz"/>
 				<meta name="google-site-verification" content="4LFYmB-l6Y6CTN9Cto7z8EiPwQy-ecopaMP-6pxQUKo"/>
+				<meta name="author" content="All: Roman Ozana; e-mail: roman@omdesign.cz"/>
 				<link rel="shortcut icon" href="/static/favicon.png"/>
 				<link rel="author" href="/static/humans.txt"/>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-reboot.css"/>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap-reboot.css"/>
 			</Head>
 
 			<body className={page ? page : 'home'}>
@@ -37,6 +36,7 @@ export default class MyDocument extends Document {
 			<div id="__next-error" dangerouslySetInnerHTML={{__html: this.props.errorHtml}}></div>
 
 			<NextScript/>
+
 			</body>
 
 			</html>

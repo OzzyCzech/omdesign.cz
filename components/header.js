@@ -16,10 +16,6 @@ export default ({active = '/'}) =>
 					<Link prefetch href="/resume"><a>Resume</a></Link>
 				</li>
 
-				<li>
-					<a href="https://OzzyCzech.cz" target="_blank">Blog</a>
-				</li>
-
 				<li className={active === '/contact' ? 'active' : null}>
 					<Link prefetch href="/contact"><a>Contact</a></Link>
 				</li>

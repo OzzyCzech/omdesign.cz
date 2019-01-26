@@ -35,30 +35,37 @@ img, embed, object, audio, video {
 header {
 	nav {
 		display: grid;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		justify-items: center;
+		text-align: center;
 		border-bottom: 1px solid #ddd;
 
 		ul {
-			display: flex;
-			margin: auto;
-		}
-
-		ul li {
-			display: block;
+			list-style-type: none;
+			display: grid;
+			width: 100vw;
+			max-width: 640px;
+			grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+			margin: 0;
+			padding: 0;
 		}
 
 		ul {
 
+			li:hover a,
 			li.active a {
 				border-bottom: 4px solid #ddd;
-				padding-bottom: 11px;
+				padding-bottom: calc(1em - 4px);
 			}
 
 			a, a:hover, a:active, a:focus {
-				padding: 15px 25px;
-				color: inherit;
-				cursor: pointer;
 				display: block;
 				text-decoration: none;
+				padding: 1em 0;
+				color: inherit;
+				cursor: pointer;
 			}
 
 		}
