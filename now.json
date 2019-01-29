@@ -5,8 +5,7 @@
 		"NODE_ENV": "production"
 	},
 	"alias": [
-		"www.omdesign.cz",
-		"omdesign.cz"
+		"www.omdesign.cz"
 	],
 	"builds": [
 		{
