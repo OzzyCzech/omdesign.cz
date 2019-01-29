@@ -4,7 +4,7 @@
 ------------------------------------------------------------------------------------------------------------------------
  Roman Ožana
  Position: developer
-     Site: https://www.omdesign.cz
+     Site: https://omdesign.cz
     Email: roman@omdesign.cz
   Twitter: @OzzyCzech
  Location: Prague, Czech Republic

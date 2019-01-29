@@ -69,7 +69,7 @@ const Freelancer = () =>
 	<article>
 		<small>{duration(new Date(2009, 2, 1))}</small>
 
-		<h3><a href="https://www.omdesign.cz">omdesign.cz</a> &ndash; Freelance web designer</h3>
+		<h3><a href="https://omdesign.cz">omdesign.cz</a> &ndash; Freelance web designer</h3>
 
 		<h4>October 2009 &ndash; present</h4>
 
