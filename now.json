@@ -5,13 +5,21 @@
 		"NODE_ENV": "production"
 	},
 	"alias": [
-		"omdesign.now.sh",
-		"omdesign.cz"
+		"www.omdesign.cz"
 	],
 	"builds": [
 		{
 			"src": "next.config.js",
 			"use": "@now/next"
+		}
+	],
+	"routes": [
+		{
+			"src": "/(.*)",
+			"status": 301,
+			"headers": {
+				"Location": "https://omdesign.cz/$1"
+			}
 		}
 	]
 }
