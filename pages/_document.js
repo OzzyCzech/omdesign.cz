@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
 				<meta name="author" content="All: Roman Ozana; e-mail: roman@omdesign.cz"/>
 				<link rel="shortcut icon" href="/static/favicon.png"/>
 				<link rel="author" href="/static/humans.txt"/>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap-reboot.css"/>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.css"/>
 			</Head>
 
 			<body className={page ? page : 'home'}>
