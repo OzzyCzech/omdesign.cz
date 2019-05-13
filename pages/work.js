@@ -125,9 +125,9 @@ const Wordpress = () =>
 			<ul>
 				<li><a target="_blank" rel="nofollow" href="https://OzzyCzech.cz/">OzzyCzech.cz</a></li>
 				<li><a target="_blank" rel="nofollow" href="https://lagunanj.cz/">lagunanj.cz</a></li>
-				<li><a target="_blank" rel="nofollow" href="http://www.portalbozp.com">portalbozp.cz</a></li>
+				<li><a target="_blank" rel="nofollow" href="http://portalbozp.cz/">portalbozp.cz</a></li>
 				<li><a target="_blank" rel="nofollow" href="http://www.tempo-reality.cz/">tempo-reality.cz</a></li>
-				<li><a target="_blank" rel="nofollow" href="http://www.zuboz.com">zuboz.cz</a></li>
+				<li><a target="_blank" rel="nofollow" href="http://www.zuboz.cz">zuboz.cz</a></li>
 				<li><a target="_blank" rel="nofollow" href="http://www.sazenice-stromky.cz">sazenice-stromky.cz</a></li>
 				<li>and more&hellip;</li>
 			</ul>

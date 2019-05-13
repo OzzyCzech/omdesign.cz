@@ -43,12 +43,12 @@ export default () => (
 			<article>
 				<h3>Day-to-day comfort</h3>
 				<ul>
-					<li>PHP (up to 7.x)</li>
+					<li>PHP</li>
 					<li>OOP, DI, IOC, design patterns</li>
 					<li>SQL language (MariaDB, MySQL)</li>
 					<li>MySQL, Redis, MongoDB, Memcached</li>
-					<li>Javascript</li>
-					<li>Angular, jQuery</li>
+					<li>Javascript ES6</li>
+					<li>React, Angular, jQuery</li>
 					<li>HTML5, CSS3 (incl. LESS, Sass, cssnext, PostCSS)</li>
 					<li>Webpack 4 &amp; Makefile</li>
 					<li>Responsive Layout and Design</li>
@@ -113,9 +113,9 @@ export default () => (
 				<h3>VŠB &ndash; Technical University of Ostrava</h3>
 				<h4>2002 – 2007: Geoinformatics</h4>
 				<ul>
-					<li>Study program: Geodesy and cartography, Geoinformatics</li>
+					<li>Study program: <a href="https://gis.vsb.cz/" target="_blank">Geodesy and cartography, Geoinformatics</a></li>
 					<li>Degree: Master's degree (Msc., Geoingormatics)</li>
-					<li>Address: VŠB – Technical university of Ostrava, 17.listopadu 15, Ostrava – Poruba, Faculty of Mining and Geology</li>
+					<li>Address: VŠB – Technical university of Ostrava, 17. listopadu 15, Ostrava – Poruba, Faculty of Mining and Geology</li>
 				</ul>
 			</article>
 			<article>
