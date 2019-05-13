@@ -1,16 +1,7 @@
-const {PHASE_PRODUCTION_SERVER} =
-	process.env.NODE_ENV === 'development'
-		? {}
-		: !process.env.NOW_REGION
-		? require('next/constants')
-		: require('next-server/constants');
+const withCSS = require('@zeit/next-css');
 
-module.exports = (phase, {defaultConfig}) => {
-	if (phase === PHASE_PRODUCTION_SERVER) {
-		// Config used to run in production.
-		return {};
+module.exports = withCSS(
+	{
+		target: 'serverless'
 	}
-
-	const withCSS = require('@zeit/next-css');
-	return withCSS();
-};
+);
