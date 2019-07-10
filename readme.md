@@ -1,6 +1,10 @@
+# Personal homepage
 
-# Install
+- Next.js
+- NOW 
 
-```
-yarn install && yarn dev
+## Install & run
+
+```bash
+yarn install && yarn build && yarn dev
 ```
