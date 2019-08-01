@@ -15,7 +15,7 @@ img, embed, object, audio, video {
 
 .avatar {
 	display: block;
-	border-radius: 99999px;
+	border-radius: 999px;
 	background: url('/static/img/roman-ozana.jpg') 50% 45% no-repeat;
 	margin: 1em auto;
 	z-index: 1;
@@ -24,8 +24,8 @@ img, embed, object, audio, video {
 	cursor: pointer;
 	filter: grayscale(100%);
 
-	width: 200px;
-	height: 200px;
+	width: 220px;
+	height: 220px;
 
 	&:hover {
 		filter: none;
