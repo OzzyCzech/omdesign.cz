@@ -17,8 +17,5 @@
 		"postcss-preset-env": "^6.7.0",
 		"react": "^16.8.1",
 		"react-dom": "^16.8.1"
-	},
-	"xdevDependencies": {
-		"puppeteer": "^1.11.0"
 	}
 }
