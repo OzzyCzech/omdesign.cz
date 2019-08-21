@@ -9,6 +9,7 @@ resume:
 clean:
 	rm -rf node_modules
 	rm -rf public/*
+	rm -rf yarn.lock
 	rm -rf .next
 
-.PHONY: start screenshots resume clean
+.PHONY: screenshots resume clean
