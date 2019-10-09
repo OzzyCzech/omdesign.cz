@@ -46,7 +46,7 @@ export default () => (
 					<li>PHP</li>
 					<li>OOP, DI, IOC, design patterns</li>
 					<li>SQL language (MariaDB, MySQL)</li>
-					<li>MySQL, Redis, MongoDB, Memcached</li>
+					<li>MySQL, MongoDB, Redis, Memcached</li>
 					<li>Javascript ES6</li>
 					<li>React, Angular, jQuery</li>
 					<li>HTML5, CSS3 (incl. LESS, Sass, cssnext, PostCSS)</li>
@@ -79,10 +79,10 @@ export default () => (
 				<h3>DevStack</h3>
 				<ul>
 					<li>Docker</li>
-					<li>Git version control</li>
-					<li>Webpack, Makefile</li>
+					<li>Git</li>
+					<li>Webpack, Makefile, Bash</li>
 					<li>Travis &amp; GitLab CI</li>
-					<li>MacOS and Linux</li>
+					<li>MacOS and OS Linux</li>
 				</ul>
 			</article>
 		</section>

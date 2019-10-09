@@ -79,11 +79,11 @@ const Freelancer = () =>
 
 export default () => (
 	<section className="experiences">
-		<h2>Working Experiences</h2>
+		<h2>Work Experiences</h2>
 		<Testomato/>
 		<Devel/>
 		<Freelancer/>
-		<h2>Former Working Experiences</h2>
+		<h2>Former Work Experiences</h2>
 		<Intergraph/>
 		<Skvely/>
 	</section>
