@@ -20,8 +20,8 @@ export default class MyDocument extends Document {
 				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 				<meta name="google-site-verification" content="4LFYmB-l6Y6CTN9Cto7z8EiPwQy-ecopaMP-6pxQUKo"/>
 				<meta name="author" content="All: Roman Ozana; e-mail: roman@omdesign.cz"/>
-				<link rel="shortcut icon" href="/static/favicon.png"/>
-				<link rel="author" href="/static/humans.txt"/>
+				<link rel="shortcut icon" href="/favicon.png"/>
+				<link rel="author" href="/humans.txt"/>
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.css"/>
 			</Head>
 

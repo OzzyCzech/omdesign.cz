@@ -1,10 +1,10 @@
 screenshots:
-	node screenshot.js https://www.testomato.com ./static/img/work/testomato.png
-	node screenshot.js https://www.zdrojak.cz ./static/img/work/zdrojak.png
-	node screenshot.js https://www.sphido.org ./static/img/work/sphido.png
+	node screenshot.js https://www.testomato.com ./public/img/work/testomato.png
+	node screenshot.js https://www.zdrojak.cz ./public/img/work/zdrojak.png
+	node screenshot.js https://www.sphido.org ./public/img/work/sphido.png
 
 resume:
-	rm -rf static/cv.pdf && node resume.js && open static/cv.pdf
+	rm -rf public/cv.pdf && node resume.js && open public/cv.pdf
 
 clean:
 	rm -rf node_modules

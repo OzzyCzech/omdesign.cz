@@ -5,7 +5,7 @@ import Head from 'next/head'
 const ContactInformation = () =>
 	<section className="contact" itemScope itemType="http://schema.org/Person">
 
-		<a href="/static/img/roman-ozana.jpg" download="Roman Ožana.jpg" title="Download image..." className="avatar"></a>
+		<a href="/img/roman-ozana.jpg" download="Roman Ožana.jpg" title="Download image..." className="avatar"></a>
 
 		<h1 itemProp="name">Ing. Roman Ožana</h1>
 
@@ -28,7 +28,7 @@ const ContactInformation = () =>
 			<span hidden itemProp="postalCode">14000</span>
 		</p>
 
-		<a href="/static/ozana.vcf" download="Ing. Roman Ozana.vcf" className="download">
+		<a href="/ozana.vcf" download="Ing. Roman Ozana.vcf" className="download">
 			<svg fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
 				<path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/>
 				<path d="M0 0h24v24H0z" fill="none"/>

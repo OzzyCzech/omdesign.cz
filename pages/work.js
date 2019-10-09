@@ -10,7 +10,7 @@ const RightArrow = ({size = 20}) =>
 const Testomato = () =>
 	<article className="testomato">
 		<div>
-			<img src="/static/img/testomato.svg" alt="Testomato" className="logo"/>
+			<img src="/img/testomato.svg" alt="Testomato" className="logo"/>
 			<p>
 				I'm working on <a href="https://www.testomato.com" target="_blank">Testomato</a> least four years as main
 				PHP/JS Developer. <a href="https://www.testomato.com" target="_blank">Testomato</a> starts as{' '}
@@ -44,7 +44,7 @@ const Testomato = () =>
 		</div>
 		<div>
 			<a href="https://www.testomato.com">
-				<img src="/static/img/work/testomato.png" alt="" className="shadow"/>
+				<img src="/img/work/testomato.png" alt="" className="shadow"/>
 			</a>
 		</div>
 	</article>;
@@ -52,7 +52,7 @@ const Testomato = () =>
 const Zdrojak = () =>
 	<article className="zdrojak">
 		<div>
-			<img src="/static/img/zdrojak.svg" alt="Zdrojak.cz" className="logo"/>
+			<img src="/img/zdrojak.svg" alt="Zdrojak.cz" className="logo"/>
 
 			<p>
 				<a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> is one of the most famous Czech
@@ -81,14 +81,14 @@ const Zdrojak = () =>
 			</p>
 		</div>
 		<div>
-			<a href="https://www.testomato.com"><img src="/static/img/work/zdrojak.png" alt=""/></a>
+			<a href="https://www.testomato.com"><img src="/img/work/zdrojak.png" alt=""/></a>
 		</div>
 	</article>;
 
 const Sphido = () =>
 	<article className="sphido">
 		<a href="http://www.sphido.org" target="_sphido">
-			<img src="/static/img/sphido.svg" alt="Sphido Logo"/>
+			<img src="/img/sphido.svg" alt="Sphido Logo"/>
 		</a>
 		<p>A rocket 🚀 fast, lightweight, static site generator</p>
 		<p>
@@ -136,7 +136,7 @@ const Wordpress = () =>
 const AndMore = () =>
 	<article className="and-more">
 		<p>
-			<a href="https://github.com/OzzyCzech" target="_blank"><img src="/static/img/github.svg" alt="GitHub"/></a>
+			<a href="https://github.com/OzzyCzech" target="_blank"><img src="/img/github.svg" alt="GitHub"/></a>
 		</p>
 		<p>
 			<a href="https://github.com/OzzyCzech" target="_blank" className="visit dark" title="Visit my GitHub profile">More on GitHub <RightArrow/></a>
