@@ -1,5 +1,3 @@
-import "./_document.css";
-import "./resume.css";
 import Head from 'next/head'
 import Experiences from './resume.experiences';
 

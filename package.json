@@ -7,16 +7,15 @@
 		"now-build": "next build"
 	},
 	"dependencies": {
-		"@zeit/next-css": "^1.0.1",
 		"moment": "^2.24.0",
-		"next": "^9.1.1",
+		"next": "^9.2.0",
 		"postcss": "^7.0.18",
 		"postcss-clean": "^1.1.0",
 		"postcss-easy-import": "^3.0.0",
 		"postcss-nested": "^4.1.1",
 		"postcss-preset-env": "^6.7.0",
-		"react": "^16.10.2",
-		"react-dom": "^16.10.2",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
 		"webpack": "^4.41.0"
 	}
 }

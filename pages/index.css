@@ -1,40 +1,41 @@
 body.home {
-	min-height: 100vh;
 
-	main article {
-		display: grid;
-		align-content: center;
-		justify-content: center;
-		grid-gap: 2px;
-		padding: 15px;
+	section.contact {
+		justify-self: center;
+		align-self: center;
+		text-align: center;
+		margin: 20px 0;
 
-		p {
-			background-color: #1B83F6;
-			color: white;
-			padding: 6px 12px;
-			margin: 0;
-			border-radius: 1.3em;
-			justify-self: end;
-			max-width: 350px;
-
-			&:last-of-type {
-				position: relative;
-			}
-
-			&:last-of-type:after {
-				content: "";
-				background: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' width='15.515px' height='17.5px' viewBox='32.485 17.5 15.515 17.5' enable-background='new 32.485 17.5 15.515 17.5'><path fill='#1B83F6' d='M48,35c-7-4-6-8.75-6-17.5C28,17.5,29,35,48,35z'/></svg>") right bottom no-repeat;
-				position: absolute;
-				top: 0;
-				bottom: 0;
-				right: -6px;
-				left: 0;
-				z-index: -1;
-			}
+		a[href^="mailto:"] {
+			font-size: 1.5em;
+			display: inline-block;
+			font-weight: bold;
+			margin-bottom: 0.5rem;
 		}
 
-		a, a:hover, a:visited, a:focus {
-			color: inherit;
+		svg {
+			vertical-align: top;
+			display: inline-block;
+		}
+
+		img.qr-vcard {
+			max-width: 300px;
+			width: 100%;
+		}
+
+		a.download {
+			padding: 20px 25px;
+			border-radius: 3px;
+			display: inline-block;
+			background: #0056b3;
+			text-decoration: none;
+			color: #fff;
+
+			svg {
+				vertical-align: middle;
+				display: inline-block;
+				margin-right: 3px;
+			}
 		}
 	}
 }
