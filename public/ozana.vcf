@@ -7,10 +7,9 @@ NICKNAME:OzzyCzech
 EMAIL;INTERNET:roman@omdesign.cz
 ORG:omdesign.cz
 TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:+420605783455
-URL;WORK:omdesign.cz
-TITLE:Freelance web developer
+URL;WORK:https://omdesign.cz
+TITLE:A freelance web developer
 ADR:;;;Prague;Prague;;Czech Republic
-X-SOCIALPROFILE;type=facebook:https://www.facebook.com/roman.ozana
 X-SOCIALPROFILE;type=twitter;x-userid=14227219:https://twitter.com/OzzyCzech
 X-SOCIALPROFILE;type=github:https://github.com/OzzyCzech/
 IMPP;X-SERVICE-TYPE=Facebook;type=pref:xmpp:roman.ozana
