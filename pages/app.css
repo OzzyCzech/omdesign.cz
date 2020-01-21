@@ -18,7 +18,7 @@ img, embed, object, audio, video {
 .avatar {
 	display: block;
 	border-radius: 999px;
-	background: url('/img/roman-ozana.jpg') 50% 45% no-repeat;
+	background: url('/img/roman-ozana.jpg') 50% 50% no-repeat;
 	margin: 1em auto;
 	z-index: 1;
 	background-size: cover;
@@ -48,8 +48,8 @@ header {
 			list-style-type: none;
 			display: grid;
 			width: 100vw;
-			max-width: 640px;
-			grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+			max-width: 360px;
+			grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 			margin: 0;
 			padding: 0;
 		}
