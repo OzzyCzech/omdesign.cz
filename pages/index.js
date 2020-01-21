@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 const ContactInformation = () =>
+
 	<section className="contact" itemScope itemType="http://schema.org/Person">
 
 		<a href="/img/roman-ozana.jpg" download="Roman Ožana.jpg" title="Download image..." className="avatar"></a>
@@ -11,6 +12,18 @@ const ContactInformation = () =>
 
 		<p>
 			<a href="tel:+420605783455" itemProp="telephone">+420 605 783 455</a> | <a href="http://m.me/roman.ozana" target="_blank">Messenger</a>
+		</p>
+
+
+		<p itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
+			<span hidden itemProp="streetAddress">Přímětická 1199/36</span>
+			<span itemProp="addressLocality">Prague</span>,{' '}
+			<span itemProp="addressRegion">Czech Republic</span>
+			<span hidden itemProp="postalCode">14000</span>
+		</p>
+
+		<p>
+			IN: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504" title="Registration number" target="_blank">87098504</a>
 		</p>
 
 		<div>
@@ -25,26 +38,7 @@ const ContactInformation = () =>
 			Download VCard
 		</a>
 
-		<p>Bank: 1236400056/3030</p>
-
-		<p>
-			IN: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504" title="Registration number" target="_blank">87098504</a>
-		</p>
-
-		<p itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
-			<span hidden itemProp="streetAddress">Pobočná 1199/36</span>
-			<span itemProp="addressLocality">Prague</span>,{' '}
-			<span itemProp="addressRegion">Czech Republic</span>
-			<span hidden itemProp="postalCode">14000</span>
-		</p>
-
 	</section>;
-
-const ContactFooter = () =>
-	<section className="contact-footer">
-		<p>I'm <abbr title="sometimes :-)">available</abbr> for freelance work</p>
-	</section>;
-
 
 export default () =>
 	<>

@@ -5,7 +5,7 @@ export default ({active = '/'}) =>
 		<nav>
 			<ul>
 				<li className={active === '/' ? 'active' : null}>
-					<Link href="/"><a>Contact me</a></Link>
+					<Link href="/"><a>Contact</a></Link>
 				</li>
 
 				<li className={active === '/work' ? 'active' : null}>

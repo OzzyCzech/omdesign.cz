@@ -1,4 +1,6 @@
 body {
+	font-family: Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;;
+
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
@@ -24,8 +26,8 @@ img, embed, object, audio, video {
 	cursor: pointer;
 	filter: grayscale(100%);
 
-	width: 220px;
-	height: 220px;
+	width: 250px;
+	height: 250px;
 
 	&:hover {
 		filter: none;

@@ -16,7 +16,7 @@ export default () => (
 
 		<section className="intro">
 
-			<img src="/public/img/roman-ozana.jpg" alt="Roman Ožana"/>
+			<img src="/img/roman-ozana.jpg" alt="Roman Ožana"/>
 			<p>Hi there,</p>
 			<p>
 				my name is Roman Ožana. I am a freelance webdesigner and developer with <strong>more than {experiences()} years of
