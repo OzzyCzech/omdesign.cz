@@ -2,8 +2,12 @@ body.work {
 
 	article {
 		display: grid;
-		padding: 5rem;
+		padding: 20px;
 		grid-gap: 20px;
+
+		@media only screen and (min-width: 920px) {
+			padding: 5rem;
+		}
 
 		img.shadow {
 			border: 1px solid rgba(0, 0, 0, .2);
@@ -16,7 +20,7 @@ body.work {
 		img.logo {
 			display: block;
 			margin: 20px 0;
-			max-width: 380px;
+			width: 380px;
 		}
 
 		div:first-of-type p:last-child {
@@ -25,68 +29,77 @@ body.work {
 		}
 	}
 
-	a.visit {
-		display: inline-flex;
-		align-self: center;
-		align-items: center;
 
-		border: 1px solid rgba(255, 255, 255, .5);
-		border-radius: 3px;
-		padding: .8rem 1.1rem .7rem 1.8rem;
+	a.btn {
+		color: #fff;
+		background-color: rgba(255, 255, 255, .1);
+		border: 1px solid rgba(255, 255, 255, .2);
+		display: inline-block;
+		font-weight: 400;
+		text-align: center;
+		white-space: nowrap;
+		vertical-align: middle;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
+		font-size: 1rem;
+		line-height: 1.5;
+		transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		padding: .9rem 2rem;
+		border-radius: .2rem;
+	}
+
+	a.btn:after {
+		content: " »";
+	}
+
+	a.btn:hover {
+		background-color: rgba(255, 255, 255, .1);
 		text-decoration: none;
+	}
 
-		&:hover {
-			background: rgba(255, 255, 255, .1);
-		}
+	a.btn-dark {
+		background-color: rgba(240, 240, 240, 1);
+		border: 1px solid rgba(0, 0, 0, .1);
+	}
 
-		svg {
-			margin: 1px 0 0 0;
-			padding: 0;
-			vertical-align: middle;
-			fill: #fff;
-			font-style: normal;
-			text-transform: none;
-			display: inline-block;
-		}
-
-		&.dark {
-			border-color: #cacaca;
-
-			&:hover {
-				background: #f5f5f5;
-			}
-
-			svg {
-				fill: #bbb;
-			}
-		}
+	a.btn-dark:hover {
+		background-color: rgba(0, 0, 0, .1);
 	}
 
 	article.testomato {
 		background: #b72b2a;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 		color: #fff;
-		grid-template-columns: repeat(2, 1fr);
 	}
 
 	article.zdrojak {
 		background: #424242;
+		grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 		color: #fff;
-		grid-template-columns: repeat(2, 1fr);
 	}
 
 	article.sphido {
+		display: none;
 		text-align: center;
 
 		img {
+			max-width: 100%;
 			padding: 20px;
 		}
 	}
 
 	article.github {
-		background: #ededed;
+		background-color: #ededed;
 	}
 
-	article.and-more {
-		text-align: center;
+	@media only screen and (min-width: 920px) {
+		article.github {
+			background: #ededed url('/img/github.svg') 80% 50% no-repeat;
+			background-size: 40%;
+		}
 	}
+
 }

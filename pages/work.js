@@ -1,11 +1,6 @@
 import Head from 'next/head'
 import github from "../data/github.json";
 
-const RightArrow = ({size = 20}) =>
-	<svg height={size} width={size} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-		<path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
-	</svg>;
-
 const Testomato = () =>
 	<article className="testomato">
 		<div>
@@ -34,10 +29,7 @@ const Testomato = () =>
 			</ul>
 
 			<p>
-				<a href="https://www.testomato.com" target="_blank" className="visit">
-					<span>Testomato.com</span>
-					<RightArrow/>
-				</a>
+				<a href="https://www.testomato.com" target="_blank" className="btn btn-light">Testomato.com</a>
 			</p>
 
 		</div>
@@ -73,10 +65,7 @@ const Zdrojak = () =>
 			</ul>
 
 			<p>
-				<a href="https://www.zdrojak.cz" target="_blank" className="visit">
-					Zdrojak.cz
-					<RightArrow/>
-				</a>
+				<a href="https://www.zdrojak.cz" target="_blank" className="btn">Zdrojak.cz</a>
 			</p>
 		</div>
 		<div>
@@ -91,58 +80,22 @@ const Sphido = () =>
 		</a>
 		<p>A rocket 🚀 fast, lightweight, static site generator</p>
 		<p>
-			<a href="https://sphido.org" target="_blank" className="visit dark">
-				Sphido.org
-				<RightArrow/>
-			</a>
+			<a href="https://sphido.org" target="_blank" className="btn btn-dark">Sphido.org</a>
 		</p>
-	</article>;
-
-const Wordpress = () =>
-	<article className="wordpress">
-		<div>
-			<h3>Wordpress Plugins</h3>
-			<ul>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omSuggestContent">omSuggestContent</a> - A plugin for suggest post content from registered users.</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omSocialButtons">omSocialButtons</a> - Simple plugin for Twitter, Facebook, Google Plus and Flatter social buttons in Wordpress posts</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omShares">omShares</a> - Automatically update number of shares via different social networks</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omLightbox">omLightBox</a> - Simple Lightbox for Wordpress</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omPreformat">omPreformat</a> - Plugin for adding preformatted text to post easily</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omSocialLogin">omSocialLogin</a> - Login via Facebook, Twitter of G+</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omEmoji">omEmoji</a> - Add bunch of emoticons to posts</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omRememberMe">omRememberMe</a> - Always remember Wordpress user for ever after successful login</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omLinks">omLinks</a> - Wordpress plugin in post URL replacement</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omUserPhotos">omUserPhotos</a> - Add custom user photo</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/omTaxonomyImages">omTaxonomyImages</a> - Add images for taxonomies</li>
-				<li><a target="_blank" href="https://github.com/OzzyCzech/">and more&hellip;</a></li>
-			</ul>
-		</div>
-		<div>
-			<h3>Websites</h3>
-			<ul>
-				<li><a target="_blank" rel="nofollow" href="https://OzzyCzech.cz/">OzzyCzech.cz</a></li>
-				<li><a target="_blank" rel="nofollow" href="https://lagunanj.cz/">lagunanj.cz</a></li>
-				<li><a target="_blank" rel="nofollow" href="http://portalbozp.cz/">portalbozp.cz</a></li>
-				<li><a target="_blank" rel="nofollow" href="http://www.tempo-reality.cz/">tempo-reality.cz</a></li>
-				<li><a target="_blank" rel="nofollow" href="http://www.zuboz.cz">zuboz.cz</a></li>
-				<li><a target="_blank" rel="nofollow" href="http://www.sazenice-stromky.cz">sazenice-stromky.cz</a></li>
-				<li>and more&hellip;</li>
-			</ul>
-		</div>
 	</article>;
 
 const Github = () =>
 	<article className="github">
-		<h2>	<a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile">GitHub</a></h2>
+		<h2><a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile">GitHub</a></h2>
 		<ul>
-			{github.filter((item) => !item.fork).sort((a, b) => {
+			{github.filter((item) => !item.fork && !item.archived).sort((a, b) => {
 				return new Date(b.pushed_at) - new Date(a.pushed_at);
 			}).map((item, index) => (<li key={index}>
 				<a href={item.html_url} target="_blank">{item.name}</a> {item.description ? '- ' + item.description : ''}
 			</li>))}
 		</ul>
 		<p>
-			<a href="https://github.com/OzzyCzech" target="_blank" className="visit dark" title="Visit my GitHub profile">More on GitHub <RightArrow/></a>
+			<a href="https://github.com/OzzyCzech" target="_blank" className="btn btn-dark" title="Visit my GitHub profile">More on GitHub</a>
 		</p>
 	</article>;
 

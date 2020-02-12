@@ -12,7 +12,7 @@ body {
 
 img, embed, object, audio, video {
 	height: auto;
-	max-width: 100%;
+	max-width: 100% !important;
 }
 
 .avatar {
@@ -36,21 +36,15 @@ img, embed, object, audio, video {
 
 header {
 	nav {
-		display: grid;
-		align-content: center;
-		align-items: center;
-		justify-content: center;
-		justify-items: center;
-		text-align: center;
 		border-bottom: 1px solid #ddd;
 
 		ul {
+			grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+			max-width: 380px;
+			width: 100%;
 			list-style-type: none;
 			display: grid;
-			width: 100vw;
-			max-width: 360px;
-			grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-			margin: 0;
+			margin: 0 auto;
 			padding: 0;
 		}
 
@@ -64,8 +58,10 @@ header {
 
 			a, a:hover, a:active, a:focus {
 				display: block;
-				text-decoration: none;
-				padding: 1em 0;
+				text-decoration: none !important;
+				padding: 1rem 0;
+				margin: 0;
+				text-align: center;
 				color: inherit;
 				cursor: pointer;
 			}
