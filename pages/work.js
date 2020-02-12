@@ -1,7 +1,8 @@
 import Head from 'next/head'
+import github from "../data/github.json";
 
 const RightArrow = ({size = 20}) =>
-	<svg height={size} width={size} viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+	<svg height={size} width={size} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 		<path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
 	</svg>;
 
@@ -35,7 +36,7 @@ const Testomato = () =>
 			<p>
 				<a href="https://www.testomato.com" target="_blank" className="visit">
 					<span>Testomato.com</span>
-					<RightArrow />
+					<RightArrow/>
 				</a>
 			</p>
 
@@ -97,7 +98,6 @@ const Sphido = () =>
 		</p>
 	</article>;
 
-
 const Wordpress = () =>
 	<article className="wordpress">
 		<div>
@@ -131,11 +131,16 @@ const Wordpress = () =>
 		</div>
 	</article>;
 
-const AndMore = () =>
-	<article className="and-more">
-		<p>
-			<a href="https://github.com/OzzyCzech" target="_blank"><img src="/img/github.svg" alt="GitHub"/></a>
-		</p>
+const Github = () =>
+	<article className="github">
+		<h2>	<a href="https://github.com/OzzyCzech" target="_blank" title="Visit my GitHub profile">GitHub</a></h2>
+		<ul>
+			{github.filter((item) => !item.fork).sort((a, b) => {
+				return new Date(b.pushed_at) - new Date(a.pushed_at);
+			}).map((item, index) => (<li key={index}>
+				<a href={item.html_url} target="_blank">{item.name}</a> {item.description ? '- ' + item.description : ''}
+			</li>))}
+		</ul>
 		<p>
 			<a href="https://github.com/OzzyCzech" target="_blank" className="visit dark" title="Visit my GitHub profile">More on GitHub <RightArrow/></a>
 		</p>
@@ -149,6 +154,6 @@ export default () =>
 		<Testomato/>
 		<Zdrojak/>
 		<Sphido/>
-		<Wordpress/>
-		<AndMore/>
+		<Github/>
+
 	</>

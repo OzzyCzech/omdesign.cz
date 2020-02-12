@@ -82,10 +82,8 @@ body.work {
 		}
 	}
 
-	article.wordpress {
+	article.github {
 		background: #ededed;
-		display: grid;
-		grid-template-columns: auto auto;
 	}
 
 	article.and-more {
