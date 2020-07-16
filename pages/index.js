@@ -26,9 +26,7 @@ const ContactInformation = () =>
 			IN: <a href="http://www.rzp.cz/cgi-bin/aps_cacheWEB.sh?VSS_SERV=ZVWSBJFND&Action=Search&ICO=87098504" title="Registration number" target="_blank">87098504</a>
 		</p>
 
-		<div>
-			<img src="/contact.svg" alt="" className="qr-vcard"/>
-		</div>
+		
 
 		<a href="/ozana.vcf" download="Ing. Roman Ozana.vcf" className="download">
 			<svg fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
