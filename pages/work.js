@@ -75,7 +75,7 @@ const Zdrojak = () =>
 
 const Sphido = () =>
 	<article className="sphido">
-		<a href="http://www.sphido.org" target="_sphido">
+		<a href="http://sphido.org" target="_sphido">
 			<img src="/img/sphido.svg" alt="Sphido Logo"/>
 		</a>
 		<p>A rocket 🚀 fast, lightweight, static site generator</p>
