@@ -1,9 +1,5 @@
-import './app.css'
-import './index.css'
-import './resume.css'
-import './work.css'
+import './_style.css'
 
+const Web = ({Component, pageProps}) => <Component {...pageProps} />
 
-export default function MyApp({Component, pageProps}) {
-	return <Component {...pageProps} />
-}
+export default Web;

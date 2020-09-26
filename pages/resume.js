@@ -6,7 +6,7 @@ function experiences() {
 	return d.getFullYear() - 2009;
 }
 
-export default () => (
+const Resume = () => (
 	<>
 		<Head>
 			<title>Resume | Ing. Roman Ožana</title>
@@ -133,3 +133,5 @@ export default () => (
 		</section>
 	</>
 )
+
+export default Resume;

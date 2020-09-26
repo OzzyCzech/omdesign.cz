@@ -2,7 +2,7 @@ import Head from 'next/head'
 import github from "../data/github.json";
 
 const Testomato = () =>
-	<article className="testomato">
+	<article className="grid grid-cols-2 gap-4">
 		<div>
 			<img src="/img/testomato.svg" alt="Testomato" className="logo"/>
 			<p>
@@ -31,17 +31,16 @@ const Testomato = () =>
 			<p>
 				<a href="https://www.testomato.com" target="_blank" className="btn btn-light">Testomato.com</a>
 			</p>
-
 		</div>
 		<div>
 			<a href="https://www.testomato.com">
-				<img src="/img/work/testomato.png" alt="" className="shadow"/>
+				<img src="/img/work/testomato.png" alt="Testomato ScreenShot" />
 			</a>
 		</div>
 	</article>;
 
 const Zdrojak = () =>
-	<article className="zdrojak">
+	<article className="grid grid-cols-2">
 		<div>
 			<img src="/img/zdrojak.svg" alt="Zdrojak.cz" className="logo"/>
 
@@ -99,7 +98,7 @@ const Github = () =>
 		</p>
 	</article>;
 
-export default () =>
+const Work = () =>
 	<>
 		<Head>
 			<title>Work | Ing. Roman Ožana</title>
@@ -108,5 +107,6 @@ export default () =>
 		<Zdrojak/>
 		<Sphido/>
 		<Github/>
-
 	</>
+
+export default Work;

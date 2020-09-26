@@ -77,7 +77,7 @@ const Freelancer = () =>
 	</article>;
 
 
-export default () => (
+const Experiences = () => (
 	<section className="experiences">
 		<h2>Work Experiences</h2>
 		<Testomato/>
@@ -89,3 +89,5 @@ export default () => (
 	</section>
 
 )
+
+export default Experiences;

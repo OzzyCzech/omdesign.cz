@@ -1,0 +1,111 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* https://nerdcave.com/tailwind-cheat-sheet */
+
+body {
+	grid-template-rows: auto 1fr auto;
+}
+
+article ul {
+	@apply list-disc;
+}
+
+h1, h2, h3 {
+	@apply font-bold;
+}
+
+h1 {
+	@apply text-4xl;
+}
+
+h2 {
+	@apply text-3xl;
+}
+
+h3 {
+	@apply text-2xl;
+}
+
+.btn {
+	@apply font-bold py-3 px-6 rounded border inline-flex items-center rounded-full no-underline;
+}
+
+.btn-blue {
+	@apply bg-blue-500 text-white border-blue-500;
+}
+
+.btn-blue:hover {
+	@apply bg-blue-700 text-white border-transparent no-underline;
+}
+
+a {
+	@apply text-blue-600;
+}
+
+a:hover {
+	@apply underline text-blue-600 ease-in-out;
+}
+
+p {
+	@apply text-base font-light mt-0 mb-4;
+}
+
+
+@media print {
+	*,
+	*::before,
+	*::after {
+		text-shadow: none !important;
+		box-shadow: none !important;
+	}
+
+	body, html {
+		display: block;
+		min-height: auto;
+		grid-template-rows: auto;
+		min-width: 992px !important;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+
+	abbr[title]::after {
+		content: " (" attr(title) ")";
+	}
+
+	pre {
+		white-space: pre-wrap !important;
+	}
+
+	pre, blockquote {
+		border: 1px solid #adb5bd;
+		page-break-inside: avoid;
+	}
+
+	tr, img {
+		page-break-inside: avoid;
+	}
+
+	p, h2, h3 {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h2, h3 {
+		page-break-after: avoid;
+	}
+
+	@page {
+		size: a4;
+	}
+
+	.no-print {
+		display: none !important
+	}
+
+}
