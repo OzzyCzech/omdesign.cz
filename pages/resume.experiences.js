@@ -84,14 +84,14 @@ const Freelancer = () =>
 
 const Experiences = () => (
 	<section>
-		<h2 className="italic border-b-4 p-4 mb-5">Work Experiences</h2>
-		<div className="grid gap-y-4 mx-8">
+		<h2 className="text-center md:text-left italic border-b-4 p-4 mb-5">Work Experiences</h2>
+		<div className="grid gap-y-4 mx-4 lg:mx-8">
 			<Testomato/>
 			<Devel/>
 			<Freelancer/>
 		</div>
-		<h2 className="italic border-b-4 p-4 mb-5">Former Work Experiences</h2>
-		<div className="grid gap-y-4 mx-8">
+		<h2 className="text-center md:text-left italic border-b-4 p-4 mb-5">Former Work Experiences</h2>
+		<div className="grid gap-y-4 mx-4 lg:mx-8">
 			<Intergraph/>
 			<Skvely/>
 		</div>

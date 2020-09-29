@@ -37,8 +37,8 @@ const Resume = () => (
 		<Experiences/>
 
 		<section className="page-break-before">
-			<h2 className="italic border-b-4 p-4 mb-5">Skills &amp; Technologies</h2>
-			<div className="grid grid-cols-2 mx-4 gap-2 xl:mx-6">
+			<h2 className="text-center md:text-left italic border-b-4 p-4 mb-5">Skills &amp; Technologies</h2>
+			<div className="grid grid-cols-2 sm:grid-col-none mx-4 gap-2 xl:mx-6">
 				<article>
 					<h3>Day-to-day comfort</h3>
 					<ul>
@@ -88,9 +88,8 @@ const Resume = () => (
 		</section>
 
 		<section>
-			<h2 className="italic border-b-4 p-4 mb-5">Languages</h2>
-
-			<article className="mx-8">
+			<h2 className="text-center md:text-left italic border-b-4 p-4 mb-5">Languages</h2>
+			<article className="mx-4 lg:mx-8">
 				<ul>
 					<li><strong>Czech</strong> &ndash; native language</li>
 					<li><strong>English</strong> &ndash; communicative</li>
@@ -99,8 +98,8 @@ const Resume = () => (
 		</section>
 
 		<section>
-			<h2 className="italic border-b-4 p-4 mb-5">Additional Info</h2>
-			<article className="mx-8">
+			<h2 className="text-center md:text-left italic border-b-4 p-4 mb-5">Additional Info</h2>
+			<article className="mx-4 lg:mx-8">
 				<ul>
 					<li>Driving license: <strong>B</strong></li>
 				</ul>
@@ -108,8 +107,8 @@ const Resume = () => (
 		</section>
 
 		<section>
-			<h2 className="italic border-b-4 p-4 mb-5">Education</h2>
-			<article className="mx-8">
+			<h2 className="text-center md:text-left italic border-b-4 p-4 mb-5">Education</h2>
+			<article className="mx-4 lg:mx-8">
 				<h3>VŠB &ndash; Technical University of Ostrava</h3>
 				<h4>2002 – 2007: Geoinformatics</h4>
 				<ul>
