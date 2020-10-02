@@ -64,19 +64,23 @@ const Zdrojak = () =>
 				<a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> is one of the most famous Czech
 				magazines about development. I am there since <a href="https://www.zdrojak.cz/clanky/novy-zdrojak-startuje-tri-dva-jedna/">the rebirth</a> as
 				the lead developer and site administrator.
-			</p>
-
-			<p>
 				Current version is build on Wordpress and multiple in-house plugins, modifications and tweaks.
 			</p>
 
 			<h3>Technologies &amp; Tools</h3>
 
 			<ul>
-				<li>PHP (Wordpress), Javascript</li>
-				<li>MariaDB</li>
-				<li>Docker, git, CI</li>
-				<li>Webpack, Makefile</li>
+				<li><a href="https://wordpress.org/" target="_blank" rel="nofollow">Wordpress 5+</a> with custom plugins and template</li>
+				<li>PHP 7.4, Javascript</li>
+				<li><a href="https://reactjs.org/" target="_blank" rel="nofollow">React</a> (for Gutenberg plugins)</li>
+				<li>MariaDB, Redis, Memcached</li>
+				<li>
+					<a href="https://www.docker.com/" target="_blank" rel="nofollow">Docker</a>, git, CI
+				</li>
+				<li>
+					<a href="https://parceljs.org/" target="_blank" rel="nofollow">Parcel</a>,{' '}
+					<a href="https://webpack.js.org/" target="_blank" rel="nofollow">Webpack</a> and Makefile
+				</li>
 			</ul>
 
 			<p className="text-center">
