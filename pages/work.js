@@ -16,26 +16,32 @@ const Testomato = () =>
 				<img src="/img/testomato.svg" alt="Testomato" className="w-6/12 sm:w-4/12"/>
 			</p>
 
-			<p>
-				I'm working on <a href="https://www.testomato.com" target="_blank" className="font-bold hover:text-white">Testomato</a> least
-				four years as main PHP/JS Developer. <a href="https://www.testomato.com" target="_blank" className="font-bold hover:text-white">Testomato</a>{' '}
-				starts as <a href="https://www.testomato.com/about" className="font-bold hover:text-white">one man project</a>,
-				from green field, based on ideas of <a href="https://michal.illich.cz/" className="hover:text-white font-bold" target="_blank">Michal Illich</a>.
-			</p>
-
-			<p>
+			<p className="text-2xl leading-relaxed">
+				I'm working at <a href="https://www.testomato.com/team" target="_blank" className="font-bold hover:text-white">Testomato</a> since beginning as co-founder &amp; developer.{' '}
+				<a href="https://www.testomato.com" target="_blank" className="font-bold hover:text-white">Testomato starts</a> almost ten years ago
+				as <a href="https://www.testomato.com/about" className="font-bold hover:text-white">one man project</a> based on ideas
+				of <a href="https://michal.illich.cz/" className="hover:text-white font-bold" target="_blank">Michal Illich</a>.{' '}
 				<a href="https://www.testomato.com" target="_blank" className="font-bold hover:text-white">Testomato</a> is a cloud-based{' '}
 				<a href="https://www.testomato.com" target="_blank" className="font-bold hover:text-white">automated website monitoring tool</a>{' '}
-				for checks any type of websites and alerts you to problems. It's fast and easiest way to monitor websites automatically!
+				for checks any type of websites and alerts you to problems. It's fast and easiest way to monitor websites automatically!{' '}
+				<a href="https://www.testomato.com" target="_blank" className="font-bold hover:text-white">Testomato</a> can check your website
+				300 times a day. How often do you?
 			</p>
 
 			<h3>Technologies &amp; Tools</h3>
 
-			<ul>
-				<li>PHP (Nette, Zend Framework)</li>
-				<li>Mysql, Memcached, Mongodb, Redis</li>
+			<ul className="text-xl">
+				<li>
+					PHP (<a href="https://nette.org/cs/" target="_blank" rel="nofollow" className="hover:text-white">Nette</a>,{' '}
+					<a href="https://framework.zend.com/" target="_blank" rel="nofollow" className="hover:text-white">Zend Framework</a>)
+				</li>
+				<li>
+					<a href="https://mariadb.org/" target="_blank" rel="nofollow" className="hover:text-white">MariaDB</a>,{' '}
+					<a href="https://www.mongodb.com/" target="_blank" rel="nofollow" className="hover:text-white">MongoDB</a>,{' '}
+					<a href="https://redis.io/" target="_blank" rel="nofollow" className="hover:text-white">Redis</a>
+				</li>
 				<li>our own <a href="https://github.com/testomato/minicrawler" target="_blank" className="hover:text-white">Minicrawler</a></li>
-				<li>Docker, git, DI, CI, TDD, &hellip;</li>
+				<li><a href="https://www.docker.com/" target="_blank" rel="nofollow" className="hover:text-white">Docker</a>, git, DI, CI, TDD, &hellip;</li>
 				<li>Angular JS + Javascript ES6</li>
 				<li>Webpack</li>
 			</ul>
@@ -60,7 +66,7 @@ const Zdrojak = () =>
 				<img src="/img/zdrojak.svg" alt="Zdrojak.cz" className="w-6/12 sm:w-4/12"/>
 			</p>
 
-			<p>
+			<p className="text-2xl leading-relaxed">
 				<a href="https://www.zdrojak.cz/" target="_blank">Zdrojak.cz</a> is one of the most famous Czech
 				magazines about development. I am there since <a href="https://www.zdrojak.cz/clanky/novy-zdrojak-startuje-tri-dva-jedna/">the rebirth</a> as
 				the lead developer and site administrator.
@@ -69,11 +75,15 @@ const Zdrojak = () =>
 
 			<h3>Technologies &amp; Tools</h3>
 
-			<ul>
+			<ul className="text-xl ">
 				<li><a href="https://wordpress.org/" target="_blank" rel="nofollow">Wordpress 5+</a> with custom plugins and template</li>
 				<li>PHP 7.4, Javascript</li>
 				<li><a href="https://reactjs.org/" target="_blank" rel="nofollow">React</a> (for Gutenberg plugins)</li>
-				<li>MariaDB, Redis, Memcached</li>
+				<li>
+					<a href="https://mariadb.org/" target="_blank" rel="nofollow">MariaDB</a>,{' '}
+					<a href="https://redis.io/" target="_blank" rel="nofollow">Redis</a>,{' '}
+					<a href="https://memcached.org/" target="_blank" rel="nofollow">Memcached</a>
+				</li>
 				<li>
 					<a href="https://www.docker.com/" target="_blank" rel="nofollow">Docker</a>, git, CI
 				</li>
@@ -86,6 +96,7 @@ const Zdrojak = () =>
 			<p className="text-center">
 				<a href="https://www.zdrojak.cz" target="_blank" className="btn btn-white" title="Visit page"><ShareIcon/> Zdrojak.cz</a>
 			</p>
+
 		</div>
 
 		<div>
