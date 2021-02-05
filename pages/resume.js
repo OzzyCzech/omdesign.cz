@@ -45,23 +45,24 @@ const Resume = () => (
 						<li>PHP</li>
 						<li>OOP, DI, IOC, design patterns</li>
 						<li>SQL language (MariaDB, MySQL)</li>
-						<li>MySQL, MongoDB, Redis, Memcached</li>
+						<li>MongoDB, Redis, Memcached</li>
 						<li>Javascript ES6</li>
 						<li>React, Angular, jQuery</li>
-						<li>HTML5, CSS3 (incl. LESS, Sass, cssnext, PostCSS)</li>
-						<li>Webpack 4 &amp; Makefile</li>
+						<li>HTML5, CSS3 (incl. LESS, Sass, cssnext, PostCSS, Bootstrap and Tailwind)</li>
+						<li>Webpack, Makefile</li>
 						<li>Responsive Layout and Design</li>
-						<li>Basics of Photoshop and Adobe Illustrator</li>
 					</ul>
 				</article>
 
 				<article>
 					<h3>Experience with</h3>
 					<ul>
-						<li>React, NextJS</li>
+						<li>NextJS</li>
+						<li>Tailwind</li>
 						<li>Node.js</li>
 						<li>Gulp &amp; Grunt</li>
 						<li>Couchbase</li>
+						<li>Adobe Photoshop and Illustrator</li>
 					</ul>
 				</article>
 

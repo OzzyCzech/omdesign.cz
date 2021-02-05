@@ -133,7 +133,7 @@ const GitHub = () =>
 			</li>))}
 		</ul>
 		<p className="text-center mt-32">
-			<a href="https://github.com/OzzyCzech" target="_blank" className="btn btn-black" title="Visit my GitHub profile"><ShareIcon/> Visit GitHub</a>
+			<a href="https://github.com/OzzyCzech" target="_blank" className="btn btn-black" title="Visit my GitHub profile"><ShareIcon/> Open GitHub</a>
 		</p>
 	</article>;
 
